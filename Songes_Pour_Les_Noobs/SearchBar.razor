@@ -1,0 +1,44 @@
+﻿@using System.Globalization
+
+<div class="search-container">
+    <input type="text"
+           class="search-bar"
+           placeholder="Rechercher un boss..."
+           @bind="searchTerm"
+           @bind:event="oninput" />
+
+    @if (FilteredMonsters.Any())
+    {
+        <ul class="search-dropdown">
+            @foreach (var monster in FilteredMonsters.Take(5))
+            {
+                <li @onclick="() => OnNavigate(monster.Id)">
+                    @monster.Name
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@code {
+
+    [Parameter] public List<Monster> Monsters { get; set; } = new();
+    [Parameter] public EventCallback<int> OnSelect { get; set; }
+    private string searchTerm = string.Empty;
+
+    private IEnumerable<Monster> FilteredMonsters =>
+        string.IsNullOrWhiteSpace(searchTerm)
+            ? Enumerable.Empty<Monster>()
+            : Monsters.Where(m =>
+                CultureInfo.CurrentCulture.CompareInfo.IndexOf(
+                    m.Name,
+                    searchTerm,
+                    CompareOptions.IgnoreCase | CompareOptions.IgnoreNonSpace
+                ) >= 0);
+
+    private async Task OnNavigate(int id)
+    {
+        searchTerm = string.Empty;
+        await OnSelect.InvokeAsync(id);
+    }
+}
