@@ -192,7 +192,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        var yamlText = await Http.GetStringAsync("data/monsters.yaml");
+        var yamlText = await Http.GetStringAsync("Data/monsters.yaml");
 
         var deserializer = new DeserializerBuilder().Build();
 
