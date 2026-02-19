@@ -7,12 +7,10 @@ html, body {
 
 body {
     min-height: 100vh;
-    background-image: url('../Images/songes.webp');
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('../Images/songes.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.6) !important;
-    background-blend-mode: darken;
 }
 
 .search-row {
@@ -270,5 +268,6 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
 
 
