@@ -220,7 +220,7 @@ else
     private async Task Navigate(int id)
     {
         SelectedMonster = Monsters![id];
-        Navigation.NavigateTo($"/?id={id}", replace: true);
+        Navigation.NavigateTo($"?id={id}", replace: true);
         PageTitle = SelectedMonster.Name;
         await Task.CompletedTask;
     }
@@ -239,7 +239,7 @@ else
     {
         SelectedMonster = null;
         PanelWidth = "800px";
-        Navigation.NavigateTo("/", replace: true);
+        Navigation.NavigateTo("", replace: true);
         PageTitle = HomeTitle;
         await Task.CompletedTask;
     }
