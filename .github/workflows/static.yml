@@ -1,0 +1,72 @@
+# GitHub Actions workflow to deploy Songes_Pour_Les_Noobs to GitHub Pages
+name: Deploy Blazor WASM to Pages
+
+env:
+  # Path to the published wwwroot folder
+  PUBLISH_DIR: Songes_Pour_Les_Noobs/bin/Release/net8.0/publish/wwwroot
+
+on:
+  # Run on pushes to main branch
+  push:
+    branches:
+      - master
+
+  # Allow manual triggering from Actions tab
+  workflow_dispatch:
+
+# Permissions required for Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Prevent multiple concurrent deployments from interfering
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      # Step 2: Install .NET 8 SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      # Step 3: Publish the Blazor WASM project
+      - name: Publish app
+        run: dotnet publish Songes_Pour_Les_Noobs/Songes_Pour_Les_Noobs.csproj -c Release
+
+      # Step 4: Rewrite base href for GitHub Pages
+      - name: Rewrite base href
+        uses: SteveSandersonMS/ghaction-rewrite-base-href@v1.1.0
+        with:
+          html_path: ${{ env.PUBLISH_DIR }}/index.html
+          base_href: /Songes_Pour_Les_Noobs/
+
+      # Step 5: Configure GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # Step 6: Upload published artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ env.PUBLISH_DIR }}
+
+      # Step 7: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
