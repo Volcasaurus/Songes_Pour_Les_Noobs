@@ -86,12 +86,6 @@ else
                     </div>
                 </div>
             </div>
-
-            <div class="text-center">
-                <button class="btn btn-primary mt-3" @onclick="RandomNavigate">
-                    Rechercher un boss aléatoire
-                </button>
-            </div>
         }
         else
         {
@@ -157,9 +151,44 @@ else
                     @((MarkupString)Markdown.ToHtml(advice))
                 </div>
             </div>
-
-            <button class="btn btn-primary" @onclick="NavHome">Retour à l'introduction</button>
         }
+
+        <div class="mt-3 position-relative">
+
+            <div class="row align-items-center">
+
+                @if (SelectedMonster != null)
+                {
+                    <div class="col-auto ms-3">
+                        <button class="btn btn-secondary" @onclick="NavHome">
+                            Retour à l'introduction
+                        </button>
+                    </div>
+
+                    string detailLink = DofensiveBase + SelectedMonster.Id;
+
+                    <div class="col text-center">
+                        <a href="@detailLink" target="_blank" rel="noopener noreferrer" class="link-box d-inline-flex align-items-center gap-1 px-2 py-1">
+
+                            <span class="small mb-0">Besoin de détails?</span>
+                            <img src="Icons/Dofensive.png" class="dofensive-icon" />
+                        </a>
+                    </div>
+                }
+                else
+                {
+                    <div class="col"></div>
+                }
+
+                <div class="col-auto me-3 text-end">
+                    <button class="btn btn-primary d-inline-flex align-items-center gap-2" @onclick="RandomNavigate">
+                        Rechercher un boss aléatoire
+                        <i class="bi bi-arrow-clockwise"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
     </div>
 }
 
@@ -181,14 +210,18 @@ else
         {"Corruption", "1300px" },
         {"Éternel Conflit", "1100px"},
         {"Guerre", "1200px" },
-        {"Reine des Voleurs", "1200px"}, 
+        {"Reine des Voleurs", "1300px"}, 
         {"Servitude", "1100px" }, 
         {"Vortex", "1300px" },
-        {"Dremoan", "1200px" },
+        {"Dremoan", "1300px" },
         {"Mekamouth", "1100px" },
         {"Cire Momore", "1100px" },
-        {"Tal Kasha", "1200px" }
+        {"Tal Kasha", "1200px" },
+        {"Déchireuse Perturbé", "1000px" },
+        {"Solar", "1000px" }
     };
+
+    private const string DofensiveBase = "https://dofensive.com/fr/monster/";
 
     protected override async Task OnInitializedAsync()
     {
@@ -231,7 +264,6 @@ else
             return;
 
         var randomId = Monsters.Keys.ElementAt(random.Next(Monsters.Count));
-
         await Navigate(randomId);
     }
 

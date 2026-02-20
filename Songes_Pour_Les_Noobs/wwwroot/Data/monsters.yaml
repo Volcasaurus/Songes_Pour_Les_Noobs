@@ -539,7 +539,7 @@
   Tanking: 4
   Information: |
     - Sans délock: Tape à 10 PO en poussant de 2, à 14 PO (relance 2) et à 2 PO en débuffant d'un tour
-    - Avec délock: Perd la poussée et l'autre sort à 14 PO. Débloque une coop à 14 PO sans ligne de vue, un sort de zone jusqu'à 5 PO et un sort à 10 PO avec relance 3
+    - Avec délock: Perd la poussée et l'autre sort à 14 PO. Débloque une coop à 14 PO sans ligne de vue, un sort de zone jusqu'à 5 PO et un sort à 10 PO
     - Met une "bombe" sur un mob qui applique un bouclier. À la fin du tour de la cible, la bombe explose à 3 PO 
     - La bombe, ainsi que le glyphe de Corruption, appliquent une maladie aléatoire
   Mechanic: |
@@ -833,7 +833,7 @@
     - À l'état X, il invoque également un Cauchemar qui joue 1 tour mais fait mal. Dans 2 tours les Diablotins reviennent
     - <u>**Délock**</u>: Globalement, un Bonraphin mort rend vulnérable à distance (2 tours) et un Brâklotin en mêlée (2 tours)
   Advice: |
-    - S'il y a d'autres menaces à gérer dans le combat: <u>**évitez au maximum que les diablotins se déchargent. Un EC à 0 états est inoffensif**</u>
+    - S'il y a d'autres menaces à gérer dans le combat: <u>**évitez que les diablotins se déchargent. Un EC à 0 états est inoffensif**</u>
     - L'état X est obligatoire 1 fois dans le combat pour retirer le seuil de l'EC
     - Les résistances eau sont très utiles
     - Lors du délock, vous pouvez utiliser les diabolotins dans votre camp pour cacher la ligne de vue de l'EC
@@ -850,7 +850,7 @@
     - <u>**Délock**</u>: Globalement, un Bonraphin mort rend vulnérable à distance (2 tours) et un Brâklotin en mêlée (2 tours)
     - Il faut effectuer le transfer de tous les états 1 fois dans le combat (état X), sinon son seuil ne s'enlève pas!
   AdviceShort: |
-    - S'il y a d'autres menaces à gérer dans le combat: <u>**évitez au maximum que les diablotins se déchargent. Un EC à 0 états est inoffensif**</u>
+    - S'il y a d'autres menaces à gérer dans le combat: <u>**évitez que les diablotins se déchargent. Un EC à 0 états est inoffensif**</u>
     - Après avoir survécu l'état X, il n'y a plus de difficulté. Il suffit de tuer les diablotins en boucle plutôt que de les laisser booster l'EC
 
 - Id: 6249
@@ -949,7 +949,7 @@
   Tanking: 9
   Information: |
     - Tape à 5 PO en ligne en échangeant de place (ignore les états type Pesanteur!), tape au contact 10% de ses PV manquants
-    - Aux tours 1, 3, 5 etc: rend tous ses alliés Lourd et <u>**vous oneshot si vous détaclez en perdant des PA/PM**</u>
+    - *Aux tours 1, 3, 5 etc:* rend tous ses alliés Lourd et <u>**vous oneshot si vous détaclez en perdant des PA/PM**</u>
     - Déplacer le Glours ou lui retirer des PM / PO débloque un sort: <u>**Reinvoque jusqu'à 4 alliés morts au prochain tour**</u>
     - <u>**Délock**</u>: Le taper en mêlée. Cela va aussi repousser les alliés en croix de 4 autour de lui de 4 cases. À chacun de vos débuts de tour, il récup son Invulnérabilité
   Mechanic: |
@@ -1002,7 +1002,7 @@
   Tanking: 9
   Information: |
     - Tape en ligne jusqu'à 5 PO en zone en se soignant. En étant délock, tape à 4 PO en échangeant de place (plus fort quand low life)
-    - S'applique 8000 résistances fixes (1 tour) quand il subi un retrait PM
+    - S'applique 8000 résistances fixes (1 tour) quand il subit un retrait PM
     - Reinvoque <u>**le dernier**</u> monstre mort à 6-10 PO et avec 25% PV (relance 2)
     - Gélée blanche: 6 PO, boost un Zombi en dommages fixes et applique l'état <u>**Instant**</u>, obligatoire pour le délock
     - <u>**Délock**</u>: Tuer un Zombi sous <u>**Instant**</u> à son contact va délock pour 1 tour
@@ -1237,7 +1237,7 @@
   Tanking: 9
   Information: |
     - Tape à 5 PO en ligne et à 3 PO autour
-    - Aux tours 2, 5, 8 etc: Lance un sort aléatoire: soit une Invi sur lui, soit un bond, soit une invoc d'un Vilinsect aléatoire
+    - *Aux tours 2, 5, 8 etc:* Lance un sort aléatoire: soit une Invi sur lui, soit un bond, soit une invoc d'un Vilinsect aléatoire
   Advice: |
     - À moins d'avoir de la malchance avec l'invocation, c'est un poutch
 
@@ -1323,7 +1323,7 @@
     - Il pousse de 2 cases, attention aux murs qui feront une poussée que de 1 case
     - Généralement, attention aux déplacements impairs des monstres dans le combat
     - L'état Pesanteur rend le Kimbo très simple à pas subir
-    - Si vous n'êtes pas sûr de la parité, porter le perso juste après le Kimbo par un Pandawa est sécure, il pourra sauver les autres#
+    - Si vous n'êtes pas sûr de la parité, porter le perso juste après le Kimbo par un Pandawa est sécure, il pourra sauver les autres
   InformationShort: |
     - Tape au contact en poussant de 2 cases, bondit à 8 PO (1x par tour)
     - Invoque un Disciple qui va réagir après que vous ayez tapé le Kimbo, la dernière ligne compte (sauf dégâts neutre)
@@ -1970,16 +1970,16 @@
   Tanking: 2
   Information: |
     - Tape fort en zone jusqu'à 9 PO en mettant un poison. Dégâts doublés en Crit
-    - À partir du tour 2: Invoque un Fungus aléatoire chaque tour (max 2)
+    - *À partir du tour 2:* Invoque un Fungus aléatoire chaque tour (max 2)
     - *Aux tours 2, 5, 8 etc:* S'applique un buff de 50% crit par dégât subi, et se recons aléatoirement sur soit retrait PA, soit retrait PM, soit dégâts subi
-    - À partir du tour 3: Applique un poison PA puissant à 4 PO (relance 3)
+    - *À partir du tour 3:* Applique un poison PA puissant à 4 PO (relance 3)
   Advice: |
     - Ce boss est très dangéreux, mais n'a presque aucune défense et peu de PV. Tuez le en 1-2 tours et c'est plié
     - Tous ses sorts, même l'invocation, sont sensibles au retrait PO
     - Si son buff du tour 2 le recons, la prévisu vous le dira. Dans ce cas, vous pouvez le débuff
   InformationShort: |
     - Tape fort jusqu'à 9 PO
-    - À partir du tour 2: Invoque un Fungus aléatoire chaque tour (max 2)
+    - *À partir du tour 2:* Invoque un Fungus aléatoire chaque tour (max 2)
     - Au tour 2, peut aléatoirement se recons sur dégâts
   AdviceShort: |
     - Ce boss est très dangéreux, mais n'a presque aucune défense et peu de PV. Tuez le en 1-2 tours et c'est plié
@@ -2339,7 +2339,7 @@
     - Tape à 5 PO en mettant un bouclier sur le mob le plus proche de la cible, tape à 2 PO autour de lui, attire à 10 PO en ligne
     - *Aux tours 1, 3, 5 etc:* invoque une Armécréante à 2 PO (4 max)
     - L'Armécréante tape à 10 PO sans ligne de vue <u>**et fera que la cible retourne sur sa case de début de tour à la fin de son tour.**</u> Elle tape également à 2 PO en ligne en repoussant. Si elle n'a subit aucun dégât pendant 1 tour, invoque un Iopprimé qui fait mal à 6 PO max
-    - <u>**Servitude renvoie 200% des dommages.**</u> En finissant sur un glyphe blanc, vous récupérez l'état <u>**Traître**</u> 1 (5 max). Taper un allié, l'incrémente de 1. Taper Servitude le décrémente de 1 <u>**mais y'aura pas de renvoi**</u>
+    - <u>**Servitude renvoie 200% des dommages.**</u> En finissant sur un glyphe blanc, vous récupérez l'état <u>**Traître**</u> 1 (5 max). Taper un allié l'incrémente de 1. Taper Servitude le décrémente de 1 <u>**mais y'aura pas de renvoi**</u>
     - Servitude peut attirer les alliés <u>**Traître**</u> de 1 case vers lui. Le perso attiré va tapér l'allié le plus proche
     - Phase 2: Servitude boost le bouclier à lui-même également. Il peut coop les mobs à 2 PO avec l'allié le plus proche du mob. Son attirance tape désormais et vole 1 PM
     - Phase 3: Tout le monde est téléporté sur sa case de début de combat. Servitude se soigne de 25% des PV max
@@ -2355,7 +2355,7 @@
   InformationShort: |
     - Est plutôt limité dans ses actions mais invoque une Armécréante 1 tour sur 2
     - L'Armécréante tape à 10 PO sans ligne de vue <u>**et fera que la cible retourne sur sa case de début de tour à la fin de son tour.**</u> Si elle n'a subit aucun dégât pendant 1 tour, invoque un Iopprimé
-    - <u>**Servitude renvoie 200% des dommages.**</u> En finissant sur un glyphe blanc, vous récupérez l'état <u>**Traître**</u> 1 (5 max). Taper un allié, l'incrémente de 1. Taper Servitude le décrémente de 1 <u>**mais y'aura pas de renvoi**</u>
+    - <u>**Servitude renvoie 200% des dommages.**</u> En finissant sur un glyphe blanc, vous récupérez l'état <u>**Traître**</u> 1 (5 max). Taper un allié l'incrémente de 1. Taper Servitude le décrémente de 1 <u>**mais y'aura pas de renvoi**</u>
     - Phase 2: Peut vous coop à son contact avec un mob
     - Phase 3: Tout le monde est téléporté sur sa case de début de combat. Servitude se soigne de 25% des PV max
   AdviceShort: |
@@ -2598,7 +2598,7 @@
   Information: |
     - Attire à 8 PO sans ligne de vue de 3 cases (relance 3), tape au contact et érode 10%
     - *Aux tours 2, 5, 8 etc:* invoque aléatoirement un Yokai ou Yomi Givrefoux (max 2)
-    - Le Yomi applique un état sur le Tengu (2 tours) <u>**en subissant des dégâts d'arme en étant alignés avec le Tengu**</u>
+    - Le Yomi applique un état sur le Tengu (2 tours) <u>**en subissant des dégâts d'arme en étant aligné avec le Tengu**</u>
     - Le Yokai applique un état sur le Tengu (2 tours) <u>**en étant déplacé pour arriver en diagonale du Tengu**</u>
     - <u>**Délock**</u>: il faut les 2 états en même temps pour délock 4 tours. Un état tout seul va lui débloquer un autre sort à la place. Yomi: oneshot au contact. Yokai: 30% érosion sur tout le monde
   Advice: |
@@ -2650,7 +2650,7 @@
   Advice: |
     - Les résistances eau sont très utiles
     - Si vous voulez absolument achever un ennemi vite, essayez de tuer au tour 1 pour éviter les bonus de tank
-    - Sinon il est préférable de baisser les PV de toute le monde et tout tuer au tour 4 (bonus PM), surtout contre groupe de 8
+    - Sinon il est préférable de baisser les PV de toute le monde et tout tuer au tour 4 (bonus PM), surtout contre un groupe de 8
     - <u>**Ne tuez jamais au tour 5**</u> si possible, ou vous allez taper sur un gros renvoi pour le reste du combat
   InformationShort: |
     - Tape à 8 PO en ligne ou diagonale en zone, a un sort qui rebondit à 10 PO
@@ -2785,7 +2785,7 @@
     - Phase 2: tape à 8 PO en ligne sans ligne de vue en débuffant 2 tours et en mettant Pacifiste, tape à 4 PO en vous téléportant sur la position précédente et en tapant à 2 PO autour
     - *Aux tours 4, 7, 10 etc:* Lance Heurage dont l'effet change totalement entre la Phase 1 et 2. En Phase 1: Boost tous les mobs selon l'heure actuelle (infini, disparaît à leur mort). En Phase 2: se téléporte au contact de l'auroraire
   Mechanic: |
-    - Il existe 12 heures, chacune étant associé à un boost (voir l'image). L'heure avance à chaque tour d'un perso où quand vous marchez dans un glyphe bleu avec un perso. Le glyphe échange également de place avec le mob qui l'a posé
+    - Il existe 12 heures, chacune étant associé à un boost (voir l'image). L'heure avance à chaque tour d'un perso ou quand vous marchez dans un glyphe bleu avec un perso. Le glyphe échange également de place avec le mob qui l'a posé
     - Un mob qui meurt gagne l'état de l'heure actuelle ainsi que le boost à l'infini (max 1)
     - Le Vortex reinvoque tous les mobs morts à 3 PO avec 20% PV et -1 PM
     - Pour qu'un mob reinvoqué ne rejoue plus, <u>**il faut le tuer deux fois à la même heure**</u> (vous verrez une étoile). Exemple: Votre perso 4 dans l'initiative tue au tour 1, donc heure 4. Il faudra alors attendre 12 tours de vos persos pour retuer, soit tour 4 avec le même perso. Utiliser des glyphes changera les heures
@@ -2839,7 +2839,6 @@
   Information: |
     - Tape à 4-12 PO en ligne en attirant au contact. Invoque un Tamponneur sur la case ciblée après l'attirance. Tape à 2 PO en ligne sans ligne de vue en poussant de 3
     - *Aux tours 3, 8, 13 etc:* Augmente ses résistances de 30% (2 tours)
-    - Transforme vos Cawottes en Tamponneur à 10 PO sans ligne de vue (2x par tour)
     - Peut échanger de place avec un Tamponneur à 3 PO (forcé!)
     - Les Tamponneurs sont Invulnérables, ne peuvent pas échanger de place et ne peuvent pas être portés
     - <u>**Quand une entité est poussée contre un Tamponneur en ligne, celui ayant effectué la poussée est téléporté symmétriquement par rapport au Tamponneur. Ensuite, l'entité est repoussée de 6 cases à l'opposé. Si c'est le Wa Wobot, il perd également 500 re pou**</u>
@@ -3076,8 +3075,8 @@
     - *Aux tours 3, 8, 13 etc:* met -100 PM et Pesanteur à votre team et tape tout le monde neutre au tour suivant. Les invocations gagnent également l'état Zombi
     - À chaque début de tour, il se débuff intégralement
     - Aux tours 6, 11, 16 etc, Dremoan se soigne en gagnant des dommages (infini)
-    - Peut reinvoquer un mob dans l'état Zombi (relance 2)
-    - À PO infinie: tue ses reinvocations <u>**ou**</u> vos invocations Zombi en les transformant en Germe de Dremoan aléatoire Indéplaçable et Invulnérable. Invoquer au moins un Germe le <u>**délock**</u> (infini)
+    - Peut reinvoquer un mob dans l'état Zombi (relance 2) et le remplacer par un Germe aléatoire Indéplaçable et Invulnérable
+    - Invoquer au moins un Germe le <u>**délock**</u> (infini)
     - Il existe 2 Germes différents: Un qui boost 4 PA à 18 PO. Dremoan gagne aussi 4 PM. L'autre est offensif, vous tape à 18 PO en retirant 3 PO et en mettant un poison. En ligne, ce dernier peut taper en zone de 2 en retirant 4 PM. En contact, met un malus de dommages
     - Quand Dremoan meurt, <u>**oneshot**</u> à 3 PO autour. Pour les Germes, le oneshot est à 2 PO autour
   Mechanic: |
@@ -3279,7 +3278,7 @@
   Advice: |
     - Ne le subissez pas à 2 PO, il n'a aucune mobilité
     - Son passe-tour peut se débuff
-    - Il lance son gros de soutien uniquement si un mob dans la zone a subi suffisamment de dégâts, jamais quand les mobs sont full life
+    - Il lance son gros sort de soutien uniquement si un mob dans la zone a subi suffisamment de dégâts, jamais quand les mobs sont full life
     - Soit tuez-le en premier, soit essayez de oneturn vos cibles. La zone de son sort est tellement immense qu'il peut souvent invi + réduction sur la moitié des mobs
   InformationShort: |
     - Au début du combat <u>**votre team est Pesanteur et perd 100 PM (1 tour)**</u>
