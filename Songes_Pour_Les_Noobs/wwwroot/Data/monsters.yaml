@@ -7,11 +7,17 @@
   Tanking: 3
   Information: |
     - Applique un <u>**poison PA**</u> très fort à 12 PO en ligne, tape qu'une fois au contact
-    - Invoque une Arakne Majeure aux tours 3, 8, 13 etc
+    - *Aux tours 3, 8, 13 etc:* invoque une Arakne Majeure qui peut ret PA, pousser et débuff un perso intégralement
   Advice: |
     - La Prysmenvout peut enlèver le poison au tour 1
     - Le poison a une PO minimale. <u>**Entourer**</u> le boss le rend presque useless
     - Éviter la ligne avec le boss est suffisant sinon
+    - Avec de la chance, son Arakne débuff le poison PA
+  InformationShort: |
+    - Applique un <u>**poison PA**</u> très fort en ligne
+  AdviceShort: |
+    - Évitez la ligne avec le boss  
+    - Le poison a une PO minimale. <u>**Entourer**</u> le boss le rend presque useless
 
 - Id: 4882
   Name: Anerice la Shushess
@@ -26,6 +32,8 @@
     - <u>**Délock**</u>: Chaque goule vivant va doubler les dégâts qu'elle subit, max. 4
     - Dégâts qu'elle subit avec 0 / 1 / 2 / 3 / 4 goules: 10% / 20% / 40% / 80% / 160%
     - *Aux tours 2, 5, 8 etc:* boost les mobs ET les alliés goulifiés de 2 PM et 50% dégâts finaux (1 tour)
+    - Peut se téléporter au contact du Goule le plus proche (relance 2)
+    - Taper Anerice attire les autres mobs vers l'attaquant de 1 case (1x par tour)
   Advice: |
     - La garder loin au début et <u>**finir en 4v1**</u> facilite drastiquement le combat
     - Taper sous <u>**érosion**</u> permet de la descendre sans devoir la tanker du tout
@@ -52,13 +60,13 @@
     - Une poussée augmente ses résistances de 20% pour 2 tours
   Advice: |
     - Elle est inoffensive sans avoir tapé pour 2 tours. C'est une bonne occasion de la tuer tôt
-    - L'état <u>**Pesanteur**</u> est la clef pour l'esquiver très facilement (son bond et sa coop)
+    - L'état <u>**Pesanteur**</u> est la clé pour l'esquiver très facilement (son bond et sa coop)
   InformationShort: |
     - Se boost des états en tapant, max 2 par tour
     - À 3 états, peut vous <u>**oneshot**</u> au contact
     - Quand poussée: gagne 20% résistance (2 tours)
   AdviceShort: |
-    - Soit tuez la très rapidement avant qu'elle puisse oneshot, soit gardez la à distance en la mettant Pesanteur en permanence
+    - Soit tuez la très rapidement avant qu'elle puisse oneshot, soit gardez la à distance en la mettant <u>**Pesanteur**</u> en permanence
 
 - Id: 800
   Name: Batofu
@@ -70,6 +78,7 @@
   Information: |
     - Tape à 2 PO une fois par cible
     - Invoque un Tofu Noir qui peut appliquer <u>**20% érosion**</u> sur plusieurs cibles, et un Tofu Fugace négligeable qui meurt après 2 tours
+    - Peut Libération pour 5 PA (lancé rarement)
   Advice: |
     - Invoque en ligne avec ligne de vue. <u>**L'entourer**</u> dans un coin évite les invocations
   InformationShort: |
@@ -106,9 +115,9 @@
   Evasion: 4
   Tanking: 8
   Information: |
-    - Tape en ligne de 5 PO. En étant délock: à la place, tape en croix de 4 PO autour, en fonction de ses PV manquants
+    - Tape en ligne de 5 PO. En étant délock: à la place, tape en croix de 4 PO autour, en fonction de ses PV manquants et attire
     - Invoque un Hamrack Indéplaçable et un monstre random de sa zone à 10 PO (max. 1)
-    - <u>**Délock**</u>: L'Hamrack délock pour 5 tours en ciblant le boss au contact, et tape en zone bâton
+    - <u>**Délock**</u>: L'Hamrack délock pour 5 tours en ciblant le boss au contact tape en zone bâton et se tue
     - L'Hamrack gagne 3 PM (1 tour) par tentative de retrait PM subi
   Advice: |
     - Il tape 0 en étant délock et full vie. Vu le délock de 5 tours, le focus peut attendre
@@ -132,7 +141,7 @@
     - Le boss reinvoque deux alliés par tour. Lancer <u>**Necronyx**</u> avant les kills fera qu'ils ne vont plus rejouer!
     - Son Monolithe est Indéplaçable, Invu à distance et gagne un bouclier chaque tour
     - <u>**Délock**</u>: Tuer le Monolithe invoque le Dagon dans votre camp. <u>**Sa mort tue votre team**</u>. Seulement le Dagon peut taper le boss
-    - Le boss vous pousse de 20 cases en cercle de 6 début de tour, sauf s'il est Necronyx. Bethel enlève Necronyx 3 tours après de l'avoir réçu
+    - Le boss vous pousse de 20 cases en cercle de 6 début de tour, sauf s'il est Necronyx. Bethel enlève Necronyx 3 tours après l'avoir réçu
     - <u>**Bethel doit mourrir avec l'état Necronyx, autrement vous allez perdre le combat!**</u>
   Mechanic: |
     - *À partir du tour 2:* Finir son tour avec un perso <u>**en ayant aucun ennemi (hors invocation) à 6 PO autour de soi-même**</u> boost les ennemis de 2 PM et 1 PO (1 tour)
@@ -141,10 +150,11 @@
     - Le Dagon devient Inébranlable quand poussé. Très conseillé pour l'esquiver
     - Pour plus rapidement tuer le Monolithe, vous pouvez éroder ou débuff de 2 tours le bouclier
     - L'état Pesanteur sur le Bethel accélère la dernière phase. Sinon il peut se barrer avec un bond à 3 PO (relance 2)
+    - Gardez Bethel pour tout dernier, que le Bethel pourra alors taper votre Dagon
   InformationShort: |
     - Lancez <u>**Necronyx**</u> avant de tuer les mobs!
     - <u>**Délock**</u>: Tuer le Monolithe invoque le Dagon dans votre camp. <u>**Sa mort tue votre team**</u>. Seulement le Dagon peut taper le boss
-    - Le boss vous pousse de 20 cases en cercle de 6 début de tour, sauf s'il est Necronyx. Bethel enlève Necronyx 3 tours après de l'avoir réçu
+    - Le boss vous pousse de 20 cases en cercle de 6 début de tour, sauf s'il est Necronyx. Bethel enlève Necronyx 3 tours après l'avoir réçu
     - <u>**Bethel doit mourrir avec l'état Necronyx, autrement vous allez perdre le combat!**</u>
   MechanicShort: |
     - *À partir du tour 2:* Finir son tour avec un perso <u>**en ayant aucun ennemi (hors invocation) à 6 PO autour de soi-même**</u> boost les ennemis de 2 PM et 1 PO (1 tour)
@@ -236,7 +246,7 @@
   Evasion: 10
   Tanking: 0
   Information: |
-    - Au contact: Peut taper <u>**30% de ses PV actuels (sort 1) OU manquants (sort 2)**</u>. C'est souvent un oneshot, les deux sorts ont 2 de relance
+    - Au contact: Peut taper <u>**30% de ses PV actuels (Sort 1) OU manquants (Sort 2)**</u>. C'est souvent un oneshot, les deux sorts ont 2 de relance
     - Repousse de 2 au contact en tapant faiblement
     - Gagne 3 PM au tour suivant s'il n'a pas fini au contact d'un ennemi
   Advice: |
@@ -257,7 +267,7 @@
   Tanking: 5
   Information: |
     - Tape à 6 PO en croix de 3, tout en soignant les alliés dans la zone (2x par tour), tape au contact (relance 2)
-    - <u>**Soigne 50% PV d'un allié**</u> à 0-7 PO en ligne (6 de relance)
+    - <u>**Soigne 50% PV d'un allié**</u> à 0-7 PO en ligne (relance 6)
   Advice: |
     - L'état Insoignable sur le focus peut aider, sinon surveillez ses lignes
   InformationShort: |
@@ -284,6 +294,7 @@
     - Ses effets ne durent que 1 tour et sont débuffables, notamment son malus 6 PA
     - L'état <u>**Pesanteur**</u> ou Stabi permettent de le focus confortablement, en empêchant son retour à sa position précédente
     - Les stratégies basées sur le placement (pièges, bombes etc) sont à éviter
+    - Vos cases de départ du combat gagnent en importance
   InformationShort: |
     - Il vous retire PA, PM et vous déplace
     - Quand tapé, il retourne à sa position précédente
@@ -359,16 +370,16 @@
   Evasion: 9
   Tanking: 4
   Information: |
-    - Tape à 12 PO sans ligne de vue en retirant 1-2 PA ou 3-4 en Crit. Attire en croix de 12 autour de lui en tapant, et tape très fort en cercle de 2 tout en repoussant de 4 cases
+    - Tape à 12 PO sans ligne de vue en retirant 1-2 PA ou 3-4 en Crit. Tape en croix de 12 autour de lui en attirant, et tape très fort en cercle de 2 tout en repoussant de 4 cases
     - Boost tous les mobs aléatoirement parmi Puissance, 63 PO et 50% Crit (3 tours, relance 4)
   Advice: |
-    - Cumuler du retrait PO tout en évitant la ligne le rend useless de loin (hors malchance sur son boost qui affecte lui-même!)
+    - Cumuler du retrait PO tout en évitant la ligne le rend useless (sauf si vous avez la malchance du boost 63 PO!)
     - Sans retrait PO, les résistances terre sont utiles
   InformationShort: |
     - Tape à 12 PO sans ligne de vue et fait très mal en ligne
     - A 33% chance de se boost 63 PO
   AdviceShort: |
-    - Cumuler du retrait PO tout en évitant la ligne le rend useless de loin (hors malchance sur son boost qui affecte lui-même!)
+    - Cumuler du retrait PO tout en évitant la ligne le rend useless de loin (sauf si vous avez la malchance du boost 63 PO!)
 
 - Id: 4860
   Name: Choudini
@@ -398,7 +409,7 @@
   Tanking: 2
   Information: |
     - Tape à 12 PO sans ligne de vue en appliquant un poison (2 tours), tape à 10 PO en attirant de 3, en débuffant de 2 et en retirant 2 PM, tape à 2 PO
-    - Métal Hurlant: Lancé à partir de son seuil à 80%, dure 3 tours (relance 4): soigne, donne 10% bouclier, donne 8% rés et 15% rés distance. Attire de 5 les alliés en ligne de vue au lancement
+    - Métal Hurlant: Lancé à partir de son seuil à 80%, dure 3 tours (relance 4): soigne, donne 10% bouclier, donne 8% rés et 15% rés distance. Attire de 5 les alliés en ligne de vue au lancement. Seulement le bouclier se débuff
     - Ses sorts sont améliorés sous Métal Hurlant: 
     - 1) Le sort de poison passe ses dommages directs en zone de 2 et applique également -5 PO, Pesanteur et -50% soins reçus 
     - 2) Le sort d'attirance double ses dégâts et passe le ret PM à -8 
@@ -606,6 +617,26 @@
     - Tuer la Coquille enlève les boosts
   AdviceShort: |
     - Tuer la Coquille est rentable. Essayez par contre de la tuer loin, les malus sont violents (-4 PM par exemple)
+
+- Id: 2000000
+  Name: Crocus
+  Image: 2000000_Crocus.png
+  Difficulty: 10
+  ImmediateFocus: 0
+  Evasion: 10
+  Tanking: 0
+  Information: |
+    - Est <u>**Invulnérable pour tout le combat**</u>
+    - Repousse au contact de 25 cases (2x par cible)
+    - À chaque début de tour, gagne 1 PM pour chaque Chêne dans sa ligne de vue (infini)
+    - *Rekt par un Chêne Mou:* Passif qui le <u>**tue**</u> quand il est poussé contre un Chêne Mou
+  Mechanic: |
+    - Équilibrage: Votre team perd 100 Fuite, les mobs gagnent 25 Tacle
+    - À chaque tour pair, un Chêne Solide Indéplaçable avec 4000 Re Pou est invoqué à 5 PO de chaque perso. Ils servent à Crocus comme obstacles. Quand un Chêne Solide subit des do pou indirects, <u>**il perd des re pou à la hauteur des do pou infligés**</u>
+    - À 0 re pou, un Chêne devient Mou!
+  Advice: |
+    - Crocus a un stuff 600 do pou et vous oneshot facilement contre un mur. Esquivez le à tout prix ou équipez des lourds re pou, servez vous des états Indéplaçable, Inébranlable ou des pièges
+    - Pour rapidement délock les Chênes, servez vous des do pou de Crocus. Vous pouvez utilisez vos invocations pour pas se faire do pou vous-même
 
 - Id: 6326
   Name: Damadrya
@@ -2752,26 +2783,26 @@
     - Le Vortex est plus ou moins en passe-tour permanent Phase 1  
     - Tape en ligne infinie de l'auroraire en érodant, met Insoignable à 2 PO autour d'un Zombie en ligne de vue
     - Phase 2: tape à 8 PO en ligne sans ligne de vue en débuffant 2 tours et en mettant Pacifiste, tape à 4 PO en vous téléportant sur la position précédente et en tapant à 2 PO autour
-    - *Aux tours 4, 7, 10 etc:* Lance Heurage dont l'effet change totalement entre Phase 1 et 2. En Phase 1: Boost tous les mobs selon l'heure actuelle (infini, disparaît à leur mort). En Phase 2: se téléporte au contact de l'auroraire
+    - *Aux tours 4, 7, 10 etc:* Lance Heurage dont l'effet change totalement entre la Phase 1 et 2. En Phase 1: Boost tous les mobs selon l'heure actuelle (infini, disparaît à leur mort). En Phase 2: se téléporte au contact de l'auroraire
   Mechanic: |
     - Il existe 12 heures, chacune étant associé à un boost (voir l'image). L'heure avance à chaque tour d'un perso où quand vous marchez dans un glyphe bleu avec un perso. Le glyphe échange également de place avec le mob qui l'a posé
     - Un mob qui meurt gagne l'état de l'heure actuelle ainsi que le boost à l'infini (max 1)
     - Le Vortex reinvoque tous les mobs morts à 3 PO avec 20% PV et -1 PM
-    - Pour qu'un mob reinvoqué ne rejoue plus, <u>**il faut le tuer deux fois à la même heure**</u>. Exemple: Votre perso 4 dans l'initiative tue au tour 1, donc heure 4. Il faudra alors attendre 12 tours de vos persos pour retuer, soit tour 4 avec le même perso. Utiliser des glyphes changera les heures
-    - <u>**Délock et Phase 2**</u>: Avoir tué tous les mobs à la même heure. Le Vortex absorbe également les boosts de toutes les heures auxquelles vous avez tué (1 max par heure)
+    - Pour qu'un mob reinvoqué ne rejoue plus, <u>**il faut le tuer deux fois à la même heure**</u> (vous verrez une étoile). Exemple: Votre perso 4 dans l'initiative tue au tour 1, donc heure 4. Il faudra alors attendre 12 tours de vos persos pour retuer, soit tour 4 avec le même perso. Utiliser des glyphes changera les heures
+    - <u>**Délock et Phase 2**</u>: Avoir tué tous les mobs à la même heure. Le Vortex gagne également les boosts de toutes les heures auxquelles vous avez tué (1 max par heure)
   Advice: |
     - Ce boss est un poutch sans être bien entouré, et sera purement pénible. Il impose une difficulté uniquement quand le groupe est déjà difficile
     - Il reinvoque en zone autour de lui. Un perso qui tape fort en zone juste après le Vortex peut tout clean en boucle, empêchant les reinvocations de rejouer
     - Évitez les kills heure 11, mais aussi heure 5 s'il est exigeant de retuer. Vous pouvez jouer vos persos qui tapent le moins fort aux heures impaires pour cela
     - La fin est un 4v1. Le retrait PM rend le Vortex totalement inoffensif, sinon le Pacifiste se débuff
   InformationShort: |
-    - Il passe ses tours Phase 1. Phase 2, il peut bouger et vous mettre Pacifiste à 8 PO sans ligne de vue
+    - Il passe ses tours Phase 1. Phase 2, il peut bouger et vous mettre Pacifiste à 8 PO en ligne sans ligne de vue
   MechanicShort: |
     - Il existe 12 heures, chacune étant associé à un boost (voir l'image). L'heure avance à chaque tour d'un perso
     - Un mob qui meurt gagne l'état de l'heure actuelle ainsi que le boost à l'infini (max 1)
     - Le Vortex reinvoque tous les mobs morts à 3 PO avec 20% PV et -1 PM
     - Pour qu'un mob reinvoqué ne rejoue plus, <u>**il faut le tuer deux fois à la même heure**</u>
-    - <u>**Délock et Phase 2**</u>: Avoir tué tous les mobs à la même heure. Le Vortex absorbe également les boosts de toutes les heures auxquelles vous avez tué (1 max par heure)
+    - <u>**Délock et Phase 2**</u>: Avoir tué tous les mobs à la même heure. Le Vortex gagne également les boosts de toutes les heures auxquelles vous avez tué (1 max par heure)
   AdviceShort: |
     - Ce boss est un poutch sans être bien entouré, et sera purement pénible. Il impose une difficulté uniquement quand le groupe est déjà difficile
     - Il reinvoque en zone autour de lui. Un perso qui tape fort en zone juste après le Vortex peut tout clean en boucle, empêchant les reinvocations de rejouer
