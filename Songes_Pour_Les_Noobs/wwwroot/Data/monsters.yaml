@@ -465,8 +465,8 @@
   Information: |
     - Tape à 14 PO en ligne sans ligne de vue (plus fort low life). Si pas délock: Tape à 4 PO sans ligne de vue. Si délock: se cache parmi 4 illusions en tapant feu en zone
     - Àu début de tour, il pose un glyphe en croix de 3 qui vous oneshot si vous commencez dedans
-    - <u>**Tour impair**</u>: Taper le Comte téléporte l'attaquant symmétriquement par rapport au Comte
-    - <u>**Tour pair**</u>: Taper le Comte téléporte le Comte symmétriquement par rapport à l'attaquant
+    - <u>**Tour impair**</u>: Taper le Comte téléporte l'attaquant symétriquement par rapport au Comte
+    - <u>**Tour pair**</u>: Taper le Comte téléporte le Comte symétriquement par rapport à l'attaquant
     - Si la destination pour ses téléportations est un obstacle ou dehors, <u>**oneshot votre team!**</u>
     - <u>**Délock**</u>: <u>**Au tour pair, sa tp doit créer un échange avec une entité**</u>. Si l'échange était avec une invoc: oneshot à 3 cases autour de l'invoc. Les entités échangées gagnent des do fixes (cumul max 2). Le délock dure 1 tour
   Mechanic: |
@@ -480,8 +480,8 @@
     - Étant délock, il peut vous tp sur votre case de début de tour. Faites attention qu'elle ne sera pas sur son glyphe!
   InformationShort: |
     - Son glyphe oneshot début de tour
-    - <u>**Tour impair**</u>: Taper le Comte téléporte l'attaquant symmétriquement par rapport au Comte
-    - <u>**Tour pair**</u>: Taper le Comte téléporte le Comte symmétriquement par rapport à l'attaquant
+    - <u>**Tour impair**</u>: Taper le Comte téléporte l'attaquant symétriquement par rapport au Comte
+    - <u>**Tour pair**</u>: Taper le Comte téléporte le Comte symétriquement par rapport à l'attaquant
     - Si la destination pour ses téléportations est un obstacle ou dehors, <u>**oneshot votre team!**</u>
     - <u>**Délock**</u>: <u>**Au tour pair, sa tp doit créer un échange avec une entité**</u>. Si l'échange était avec une invoc: oneshot à 3 cases autour de l'invoc. Le délock dure 1 tour
   MechanicShort: |
@@ -638,6 +638,45 @@
   Advice: |
     - Crocus a un stuff 600 do pou et vous oneshot facilement contre un mur. Esquivez le à tout prix ou équipez des lourds re pou, servez vous des états Indéplaçable, Inébranlable ou des pièges
     - Pour rapidement délock les Chênes, servez vous des do pou de Crocus. Vous pouvez utilisez vos invocations pour pas se faire do pou vous-même
+
+- Id: 3000000
+  Name: Diddy
+  Image: 3000000_Diddy.png
+  Difficulty: 10
+  ImmediateFocus: 6
+  Evasion: 9
+  Tanking: 1
+  Information: |
+    - Tape fort à 2 PO (2x par cible). Sur vos personnages femelles, ses dommages sont doublés et l'état Pacifiste est appliqué (2 tours)
+    - S'attire au contact à 10 PO en ligne
+    - À chaque fin de tour, pose un glyphe d'huile de bébé en cercle de 5 (infini jusqu'à sa mort). <u>**Être dedans vous retire 100 PM et met Pesanteur. Diddy quant à lui profitera de 80% de réduction de dégâts**</u>
+    - Seuil à 2025 PV: Invoque 2 avocats qui lui appliquent 10000 bouclier et 4 PM à l'apparition et vous taclent
+  Advice: |
+    - Essayez de garder Diddy au même endroit pour pas démultiplier les glyphes sur la map, surtout si vous le tuez en dernier
+    - Vous pouvez utiliser l'érosion pour contourner sa réduction de dégâts dans son glyphe
+    - Prévoyez des sorts qui vous poussent / attirent pour sortir de son glyphe sous Pesanteur
+    - Quand vous passez son seuil, vous pouvez préparer un blocage derrière ses 2 avocats pour sécuriser la fin
+
+- Id: 4000000
+  Name: Epstein
+  Image: 4000000_Epstein.png
+  Difficulty: 10
+  ImmediateFocus: 10
+  Evasion: 10
+  Tanking: 0
+  Information: |
+    - Il est Invisible pour tout le combat
+    - Livraison fraîche: Lancé à 10 PO en ligne, téléporte votre perso sur l'île d'Epstein (relance 2)
+    - Corruption: Passif lancé à chaque dégât subi. Gagne un état. À 3 états, consomme les états pour passer votre tour et se téléporter aléatoirement en cercle de 3 (toute la zone, ignore la Pesanteur)
+    - Il oneshot vos invocations au contact
+  Mechanic: |
+    - Crée un petit îlot isolé au début du combat qui est enfermé par des obstacles. Ses alliés sont téléportés sur l'îlot. Tout le monde sur l'îlot est Pesanteur, vos persos subissent également 40% érosion
+    - Quand il meurt: tout le monde sur l'île retourne sur la map principale. Ses alliés perdent 200% résistances (infini)
+  Advice: |
+    - Il n'existe aucune classe (à part l'Eliotrope) ayant la capacité de quitter l'île d'Epstein. L'Elio rend le boss plutôt autowin, sinon vous allez vous faire torturer et mourrir à terme
+    - Suivez à tout prix sa position pour éviter son sort. Vous pouvez utiliser des invoc pour le brain et donc savoir où il se retrouve, ou cacher la ligne avec des invoc
+    - Epstein ayant 10 PM, le retrait PM est extrêment utile pour simplifier le combat
+    - Les poisons sont très efficaces, tapant à long terme et sans proc ses états
 
 - Id: 6326
   Name: Damadrya
@@ -2029,7 +2068,7 @@
   Tanking: 1
   Information: |
     - Tape et attire à 7 PO en ligne, tape et pousse à 5 PO en ligne sans ligne de vue, tape à 3 PO, tape à 2 PO en zone en débuffant de 2 tours
-    - Aux tours 5, 9, 13 etc: <u>**Oneshot à 3 PO autour de lui au début du tour global**</u>
+    - *Aux tours 5, 9, 13 etc:* <u>**Oneshot à 3 PO autour de lui au début du tour global**</u>
   Mechanic: |
     - Quand un allié est poussée / attiré: il pose un glyphe (3 tours). Le glyphe augmente de 30% les dommages subi (sauf sur le Phossile)
     - Finir son tour soigne vos alliés à 4 PO, et soigne vos ennemis à 9+ PO en leur retirant 1 PM
@@ -2038,7 +2077,7 @@
     - Le Phossile a peu de mobilité, surtout avec sa mécanique qui retire 1 PM. Gardez le loin simplement. Il fait mal
   InformationShort: |
     - Tape avec plein de sorts, 7 PO en ligne max
-    - Aux tours 5, 9, 13 etc: <u>**Oneshot à 3 PO autour de lui au début du tour global**</u>
+    - *Aux tours 5, 9, 13 etc:* <u>**Oneshot à 3 PO autour de lui au début du tour global**</u>
   MechanicShort: |
     - Quand un allié est poussée / attiré: il pose un glyphe (3 tours). Le glyphe augmente de 30% les dommages subi (sauf sur le Phossile)
     - Finir son tour soigne vos alliés à 4 PO, et soigne vos ennemis à 9+ PO en leur retirant 1 PM
