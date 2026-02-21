@@ -3,7 +3,7 @@
   Image: 173_Abraknyde Ancestral.png
   Difficulty: 4
   ImmediateFocus: 8
-  Evasion: 8
+  Evasion: 7
   Tanking: 3
   Information: |
     - Applique un <u>**poison PA**</u> très fort à 12 PO en ligne, tape qu'une fois au contact
@@ -24,7 +24,7 @@
   Image: 4882_Anerice la Shushess.png
   Difficulty: 6
   ImmediateFocus: 0
-  Evasion: 8
+  Evasion: 9
   Tanking: 1
   Information: |
     - Tape en zone jusqu'à 8 PO, tape à 3 PO en transformant en <u>**Goule**</u>
@@ -112,8 +112,8 @@
   Image: 2877_Ben le Ripate.png
   Difficulty: 4
   ImmediateFocus: 2
-  Evasion: 4
-  Tanking: 8
+  Evasion: 3
+  Tanking: 7
   Information: |
     - Tape en ligne de 5 PO. En étant délock: à la place, tape en croix de 4 PO autour, en fonction de ses PV manquants et attire
     - Invoque un Hamrack Indéplaçable et un monstre random de sa zone à 10 PO (max. 1)
@@ -167,8 +167,8 @@
   Image: 1188_Blop Multicolore Royal.png
   Difficulty: 5
   ImmediateFocus: 8
-  Evasion: 9
-  Tanking: 3
+  Evasion: 8
+  Tanking: 2
   Information: |
     - Tape fort à 4 PO en volant 2 PM
     - Peut mettre toute la team Insoignable (1 tour, relance 3)
@@ -187,8 +187,8 @@
   Image: 1184_Blop Coco Royal.png
   Difficulty: 4
   ImmediateFocus: 3
-  Evasion: 4
-  Tanking: 9
+  Evasion: 3
+  Tanking: 7
   Information: |
     - Tapent à 4 PO en volant 1 PM
     - Invoquent un Blop aléatoire à 2 PO (1 max)
@@ -203,8 +203,8 @@
   Image: 2975_Boostache.png
   Difficulty: 6
   ImmediateFocus: 10
-  Evasion: 5
-  Tanking: 3
+  Evasion: 6
+  Tanking: 4
   Information: |
     - Tape au contact en mettant 30% érosion (2 tours)
     - Enraciné et Lourd, donc insensible au Tacle et impossible de déplacer
@@ -225,8 +225,8 @@
   Image: 147_Bouftou Royal.png
   Difficulty: 4
   ImmediateFocus: 7
-  Evasion: 7
-  Tanking: 6
+  Evasion: 3
+  Tanking: 7
   Information: |
     - Tape au contact 1 fois par cible
     - Peut soigner ses alliés fort à 6 PO et réduire de 30% les dégâts sur un allié à 7 PO
@@ -308,7 +308,7 @@
   Image: 4460_Capitaine Meno.png
   Difficulty: 9
   ImmediateFocus: 0
-  Evasion: 3
+  Evasion: 2
   Tanking: 8
   Information: |
     - Tape à 10 PO en posant une rune, et à 4 PO sans ligne de vue
@@ -334,14 +334,15 @@
   Image: 3238_Chafer Ronin.png
   Difficulty: 2
   ImmediateFocus: 2
-  Evasion: 7
-  Tanking: 5
+  Evasion: 6
+  Tanking: 4
   Information: |
     - Tape au contact, et faiblement à 6 PO en retirant 1 PM
     - En fin de tour, se cache parmi des illusions
   Advice: |
     - L'état Pesanteur empêche les illusions
     - Les sorts avec "Cible nécessaire" ne peuvent pas désamorcer une illusion
+    - S'il est trop de votre team, il passe son tour en boucle à l'autre bout de la map en utilisant l'illusion avant de s'avancer
 
 - Id: 4263
   Name: Chaloeil
@@ -367,8 +368,8 @@
   Image: 257_Chene Mou.png
   Difficulty: 6
   ImmediateFocus: 6
-  Evasion: 9
-  Tanking: 4
+  Evasion: 8
+  Tanking: 2
   Information: |
     - Tape à 12 PO sans ligne de vue en retirant 1-2 PA ou 3-4 en Crit. Tape en croix de 12 autour de lui en attirant, et tape très fort en cercle de 2 tout en repoussant de 4 cases
     - Boost tous les mobs aléatoirement parmi Puissance, 63 PO et 50% Crit (3 tours, relance 4)
@@ -386,7 +387,7 @@
   Image: 4860_Choudini.png
   Difficulty: 6
   ImmediateFocus: 8
-  Evasion: 2
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape à 12 PO en retirant 2 PM. Sa cible échangera de place avec l'allié le plus proche
@@ -405,7 +406,7 @@
   Image: 7222_Cire Momore.png
   Difficulty: 8
   ImmediateFocus: 0
-  Evasion: 10
+  Evasion: 8
   Tanking: 2
   Information: |
     - Tape à 12 PO sans ligne de vue en appliquant un poison (2 tours), tape à 10 PO en attirant de 3, en débuffant de 2 et en retirant 2 PM, tape à 2 PO
@@ -460,7 +461,7 @@
   Difficulty: 8
   ImmediateFocus: 1
   Evasion: 3
-  Tanking: 8
+  Tanking: 7
   Information: |
     - Tape à 14 PO en ligne sans ligne de vue (plus fort low life). Si pas délock: Tape à 4 PO sans ligne de vue. Si délock: se cache parmi 4 illusions en tapant feu en zone
     - Àu début de tour, il pose un glyphe en croix de 3 qui vous oneshot si vous commencez dedans
@@ -535,8 +536,8 @@
   Image: 6026_Corruption.png
   Difficulty: 8
   ImmediateFocus: 5
-  Evasion: 6
-  Tanking: 4
+  Evasion: 5
+  Tanking: 5
   Information: |
     - Sans délock: Tape à 10 PO en poussant de 2, à 14 PO (relance 2) et à 2 PO en débuffant d'un tour
     - Avec délock: Perd la poussée et l'autre sort à 14 PO. Débloque une coop à 14 PO sans ligne de vue, un sort de zone jusqu'à 5 PO et un sort à 10 PO
@@ -574,7 +575,7 @@
   Difficulty: 7
   ImmediateFocus: 8
   Evasion: 1
-  Tanking: 10
+  Tanking: 9
   Information: |
     - Tape en zone jusq'à 3 PO. <u>**Tape tous les alliés en retirant 100 PA pour 1 tour s'il a 12 PA**</u> (11 PA initialement, relance 5)
     - Sort qui boost 50% résistances en zone de 2 (1 tour, relance 5) 
@@ -603,7 +604,7 @@
   Difficulty: 5
   ImmediateFocus: 4
   Evasion: 7
-  Tanking: 4
+  Tanking: 3
   Information: |
     - Tape à 3 PO en poussant, tape en cercle de 5 (relance 2), tape fort à 10 PO en ligne (relance 3)
     - *Aux tours 1, 6, 11 etc:* <u>**Invoque une Coquille aléatoire qui boost tous les mobs (Soin, Bouclier, PM, dégâts). Sur la Croca, le boost est doublé**</u>
@@ -644,7 +645,7 @@
   Difficulty: 5
   ImmediateFocus: 1
   Evasion: 8
-  Tanking: 4
+  Tanking: 2
   Information: |
     - Tape à 10 PO sans ligne de vue en retirant 1 PM, et à 2 PO en retirant de la Puissance
     - Invoque un Bourgeon qui explose sur l'allié le plus proche, infligeant des faibles dégâts
@@ -690,7 +691,7 @@
   Difficulty: 6
   ImmediateFocus: 0
   Evasion: 10
-  Tanking: 1
+  Tanking: 0
   Information: |
     - Tape très fort au contact en mettant 40% érosion (1 tour) et en retirant 10% rés (infini)
     - *À partir du tour 2:* Bondit à 5 PO en ligne (relance 2) en tapant air en carré 1 et en retirant 4 PM dans la zone
@@ -745,8 +746,8 @@
   Image: 6903_Directeur Grunob.png
   Difficulty: 1
   ImmediateFocus: 2
-  Evasion: 2
-  Tanking: 9
+  Evasion: 0
+  Tanking: 10
   Information: |
     - Tape à 6 PO
     - Peut boost 2 PM en croix de 1 (relance 2)
@@ -760,7 +761,7 @@
   Difficulty: 3
   ImmediateFocus: 9
   Evasion: 2
-  Tanking: 6
+  Tanking: 8
   Information: |
     - Tape à 10 PO, tape à 5 PO en poussant de 2 cases
     - Peut boost un mob de 2 PA, 2 PM et Puissance (2 tours, relance 3)
@@ -779,7 +780,7 @@
   Image: 113_Dragon Cochon.png
   Difficulty: 5
   ImmediateFocus: 9
-  Evasion: 9
+  Evasion: 10
   Tanking: 0
   Information: |
     - Au contact: Tape en retirant 2 PA, tape très fort en repoussant de 6 cases
@@ -801,8 +802,8 @@
   Image: 4609_El Piko.png
   Difficulty: 3
   ImmediateFocus: 2
-  Evasion: 1
-  Tanking: 9
+  Evasion: 2
+  Tanking: 8
   Information: |
     - Tape à 12 PO en croix 1 en mettant un poison fin de tour, tape au contact
     - À chaque début de tour, il boost les mobs aléatoirement
@@ -817,8 +818,8 @@
   Image: 6792_L'Eternel Conflit.png
   Difficulty: 9
   ImmediateFocus: 0
-  Evasion: 9
-  Tanking: 3
+  Evasion: 8
+  Tanking: 2
   Information: |
     - Tape à 5-15 PO, selon ses boosts. Tape fort au contact en poussant de 4 cases
     - Bondit à 3 PO en tapant en cercle 2. Si d'autres mobs étaient dans la zone, il met la zone Indéplaçable (1 tour)
@@ -875,8 +876,8 @@
   Image: 3852_Fraktale.png
   Difficulty: 3
   ImmediateFocus: 1
-  Evasion: 4
-  Tanking: 8
+  Evasion: 3
+  Tanking: 7
   Information: |
     - Tape à 8 PO, tape à 4 PO en ligne sans ligne de vue en fonction des PM restants
     - Subit que 70% des dégâts et renvoie 50% à 2 cases, alliés comme ennemis
@@ -926,8 +927,8 @@
   Image: 430_Gelee Royale Citron.png
   Difficulty: 4
   ImmediateFocus: 2
-  Evasion: 2
-  Tanking: 9
+  Evasion: 3
+  Tanking: 7
   Information: |
     - Chaque Gélée applique des bonus / malus négligeables qui varient selon la friandise (PA, PM, puissance, soin, réduction)
     - Tapent à 7 PO avec 2 PO minimale, bondissent à 2 PO en tapant en zone (relance 3)
@@ -945,8 +946,8 @@
   Image: 2864_Glourseleste.png
   Difficulty: 8
   ImmediateFocus: 1
-  Evasion: 2
-  Tanking: 9
+  Evasion: 0
+  Tanking: 10
   Information: |
     - Tape à 5 PO en ligne en échangeant de place (ignore les états type Pesanteur!), tape au contact 10% de ses PV manquants
     - *Aux tours 1, 3, 5 etc:* rend tous ses alliés Lourd et <u>**vous oneshot si vous détaclez en perdant des PA/PM**</u>
@@ -998,7 +999,7 @@
   Image: 2942_Grolloum.png
   Difficulty: 7
   ImmediateFocus: 0
-  Evasion: 3
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape en ligne jusqu'à 5 PO en zone en se soignant. En étant délock, tape à 4 PO en échangeant de place (plus fort quand low life)
@@ -1027,7 +1028,7 @@
   Difficulty: 6
   ImmediateFocus: 0
   Evasion: 6
-  Tanking: 6
+  Tanking: 4
   Information: |
     - Tape en zone jusqu'à 8 PO, tape au contact. Les deux qu'une fois par tour
     - Est Indéplaçable et Invulnerable. <u>**Délock**</u>: Simplement tuer ses alliés (Phase 2)
@@ -1061,8 +1062,8 @@
   Image: 6212_Hanshi.png
   Difficulty: 3
   ImmediateFocus: 2
-  Evasion: 3
-  Tanking: 8
+  Evasion: 8
+  Tanking: 2
   Information: |
     - Hanshi attire à 7 PO en ligne et tape au contact. Shihan tape à distance entre 7 et 11 PO
     - Shihan pose un piège à 12 PO qui téléporte le mob le plus proche au contact du déclencheur
@@ -1083,7 +1084,7 @@
   Image: 6204_Shihan.png
   Difficulty: 3
   ImmediateFocus: 2
-  Evasion: 3
+  Evasion: 2
   Tanking: 8
   Information: |
     - Hanshi attire à 7 PO en ligne et tape au contact. Shihan tape à distance entre 7 et 11 PO
@@ -1106,7 +1107,7 @@
   Difficulty: 6
   ImmediateFocus: 5
   Evasion: 8
-  Tanking: 4
+  Tanking: 2
   Information: |
     - Tape en zone jusq'à 5 PO avec 20% érosion et un poison (1 tour), tape au contact en retirant 20% résistances (1 tour)
     - Se boost 2 PM (2 tours, relance 5) 
@@ -1130,8 +1131,8 @@
   Image: 107_Hell Mina.png
   Difficulty: 6
   ImmediateFocus: 1
-  Evasion: 6
-  Tanking: 6
+  Evasion: 5
+  Tanking: 5
   Information: |
     - Bond à 6 PO en érodant au contact, attire à 5 PO en ligne, tape au contact en poussant de 6 cases
     - À son début de tour, elle désigne chaque perso avec un élément aléatoire. L'élément doit être utilisé ou le perso subira des lourds dégâts
@@ -1183,8 +1184,8 @@
   Image: 6654_Kabahal.png
   Difficulty: 5
   ImmediateFocus: 4
-  Evasion: 5
-  Tanking: 5
+  Evasion: 6
+  Tanking: 4
   Information: |
     - Met un poison à 12 PO, tape à 6 PO en zone (cible nécessaire, 1 par cible), tape au contact en mettant Insoignable
     - Taper Kabahal va baisser sa résistance de l'élément correspondant et monter une autre aléatoirement (re crit et re pou y compris)
@@ -1207,7 +1208,7 @@
   Image: 3556_Kanigroula.png
   Difficulty: 5
   ImmediateFocus: 0
-  Evasion: 2
+  Evasion: 4
   Tanking: 6
   Information: |
     - Tape à 8 PO en croix 1, oneshot une invocation à 8 PO à partir du tour 3 (relance 2)
@@ -1233,8 +1234,8 @@
   Image: 3945_Kankreblath.png
   Difficulty: 2
   ImmediateFocus: 2
-  Evasion: 3
-  Tanking: 9
+  Evasion: 0
+  Tanking: 10
   Information: |
     - Tape à 5 PO en ligne et à 3 PO autour
     - *Aux tours 2, 5, 8 etc:* Lance un sort aléatoire: soit une Invi sur lui, soit un bond, soit une invoc d'un Vilinsect aléatoire
@@ -1247,7 +1248,7 @@
   Difficulty: 5
   ImmediateFocus: 5
   Evasion: 7
-  Tanking: 5
+  Tanking: 3
   Information: |
     - Tape à 6 PO en ligne (1x par tour). Pour 1 tour, sa poupée va renvoyer 100% de dégâts sur cette cible
     - Invoque une poupée qui se tape elle-même à la fin de son tour (1 max, relance illimité)
@@ -1269,7 +1270,7 @@
   Difficulty: 3
   ImmediateFocus: 6
   Evasion: 8
-  Tanking: 3
+  Tanking: 2
   Information: |
     - Tape en ligne de 2, cible nécessaire au contact
     - Invoque un Kardorib qui tape au contact également (1 max, 6 de relance)
@@ -1285,7 +1286,7 @@
   Difficulty: 5
   ImmediateFocus: 3
   Evasion: 9
-  Tanking: 3
+  Tanking: 1
   Information: |
     - Est Indéplaçable pour tout le combat
     - S'attire en ligne à 15 PO jusqu'au contact (s'enlève l'Indéplaçable, puis le remet), tape au contact
@@ -1374,7 +1375,7 @@
   Difficulty: 2
   ImmediateFocus: 1
   Evasion: 9
-  Tanking: 3
+  Tanking: 1
   Information: |
     - Tape au contact (cible nécessaire!). Les dégâts sont en cône infini dans la direction de la frappe
     - Attire ses alliés à 3 PO en ligne en les soignant
@@ -1420,7 +1421,7 @@
   Difficulty: 6
   ImmediateFocus: 5
   Evasion: 10
-  Tanking: 1
+  Tanking: 0
   Information: |
     - Attire à 10 PO en ligne 
     - À partir du tour 2: <u>**met -100 PA (ou oneshot une invoc) à 5 PO en ligne**</u>
@@ -1464,7 +1465,7 @@
   Image: 2995_Kwakwa.png
   Difficulty: 6
   ImmediateFocus: 8
-  Evasion: 2
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape à 7 PO en ligne en poussant de 4. Tape également à 3 PO et à 1 PO
@@ -1526,7 +1527,7 @@
   Difficulty: 5
   ImmediateFocus: 7
   Evasion: 2
-  Tanking: 9
+  Tanking: 8
   Information: |
     - Tape au contact, retire de la Puissance et applique l'état <u>**Maudit**</u>
     - Coop 1 mob chaque tour en le boostant Puissance (PO infinie sans ligne de vue)  
@@ -1575,7 +1576,7 @@
   Difficulty: 1
   ImmediateFocus: 0
   Evasion: 9
-  Tanking: 3
+  Tanking: 1
   Information: |
     - Tape à 4 PO en volant 2 PM, tape à 3 PO en diago en échangeant de place (marche sur les mobs aussi)
     - Taper le Malléfisk <u>**boost de la Puissance à lui-même et son attaquant (infini)**</u>
@@ -1601,7 +1602,7 @@
   Difficulty: 2
   ImmediateFocus: 2
   Evasion: 9
-  Tanking: 5
+  Tanking: 1
   Information: |
     - Tape au contact en échangeant de place
     - <u>**Délock**</u>: Soigner un perso à son contact délock 6 tours (vol de vie ne compte pas)
@@ -1626,8 +1627,8 @@
   Image: 4621_Mantiscore.png
   Difficulty: 3
   ImmediateFocus: 7
-  Evasion: 3
-  Tanking: 5
+  Evasion: 6
+  Tanking: 4
   Information: |
     - Tape à 5 PO en mettant Enraciné, et tape au contact avec 2 sorts
     - Attire tous les alliés de 3 cases vers lui (relance 5)
@@ -1651,7 +1652,7 @@
   Difficulty: 7
   ImmediateFocus: 3
   Evasion: 9
-  Tanking: 2
+  Tanking: 1
   Information: |
     - Tape en ligne jusqu'à 7 PO en zone, tape au contact <u>**en retirant 50% PV**</u> et en mettant Pesanteur (1 tour)
     - *Aux tours 2, 4, 6 etc:* Lance un sort qui boost son sort de zone pour chaque dégât subi (cumul max 5, environ +130% dégâts en full boost)
@@ -1677,7 +1678,7 @@
   Image: 232_Meulou.png
   Difficulty: 8
   ImmediateFocus: 2
-  Evasion: 9
+  Evasion: 6
   Tanking: 4
   Information: |
     - Tape au contact. Si la cible est tuée, remplace par un Mulou
@@ -1706,7 +1707,7 @@
   Difficulty: 4
   ImmediateFocus: 2
   Evasion: 9
-  Tanking: 2
+  Tanking: 1
   Information: |
     - Tape très fort au contact en poussant de 6 cases. Dégâts doublés en Crit
     - Invoque un Tofu avec des dégâts anecdotiques (1x par tour, 4 max)
@@ -1741,7 +1742,7 @@
   Difficulty: 5
   ImmediateFocus: 0
   Evasion: 9
-  Tanking: 2
+  Tanking: 1
   Information: |
     - Tape à 6 PO, à 6 PO en ligne en volant de la Puissance (<u>**infini**</u>, cumul max 5) et à 2 PO en mettant -100 PA/PM et en téléportant sur la case de début de tour (relance 2). Le -100 PA/PM s'enlève par les dégâts d'un allié
     - Au début de tour: attire toute la map vers elle, tue les Charognes, applique un <u>**marqueur**</u> sur les entités, vole 5% résistance à tous les mobs et leur donne 1 PM
@@ -1768,7 +1769,7 @@
   Image: 3391_Missiz Frizz.png
   Difficulty: 7
   ImmediateFocus: 6
-  Evasion: 4
+  Evasion: 3
   Tanking: 7
   Information: |
     - Tape à 8 PO en érodant, tape à 4 PO. Quand elle subit un dégât, elle attire les alliés vers elle en étoile de 7 et boost son sort à 4 PO sur les alliés dans la zone
@@ -1809,8 +1810,8 @@
   Image: 928_Mob l'Eponge.png
   Difficulty: 1
   ImmediateFocus: 2
-  Evasion: 2
-  Tanking: 9
+  Evasion: 0
+  Tanking: 10
   Information: |
     - Tape en ligne de 9 PO en zone en retirant 2 PO
     - En cercle de 2: peut soigner les mobs (relance 2) et débuff les alliés (relance 4)
@@ -1822,7 +1823,7 @@
   Image: 226_Moon.png
   Difficulty: 6
   ImmediateFocus: 0
-  Evasion: 2
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape à 8 PO en retirant 3 PA, 3 PM et 1 PO (2x par tour), tape en zone jusqu'à 4 PO
@@ -1851,8 +1852,8 @@
   Image: 3100_Nelween.png
   Difficulty: 5
   ImmediateFocus: 5
-  Evasion: 9
-  Tanking: 3
+  Evasion: 8
+  Tanking: 2
   Information: |
     - Tape à 2 PO, et à 1 PO en retirant 2 PM
     - Lancé à 1 PO, en cercle de 3: les alliés perdent 30% résistance et sacrifient les ennemis dans la zone (2 tours, relance 5)
@@ -1911,7 +1912,7 @@
   Image: 2924_Obsidiantre.png
   Difficulty: 3
   ImmediateFocus: 2
-  Evasion: 3
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape à 10 PO en ligne, ou tape à 3 PO en échangeant de place quand délock (10% des PV manquants)
@@ -1934,7 +1935,7 @@
   Image: 3564_Ombre.png
   Difficulty: 6
   ImmediateFocus: 1
-  Evasion: 5
+  Evasion: 3
   Tanking: 7
   Information: |
     - Tape à 7 PO en ligne en s'attirant, tape en cercle de 3 autour de lui
@@ -1966,8 +1967,8 @@
   Image: 1159_Ougah.png
   Difficulty: 5
   ImmediateFocus: 9
-  Evasion: 5
-  Tanking: 2
+  Evasion: 7
+  Tanking: 3
   Information: |
     - Tape fort en zone jusqu'à 9 PO en mettant un poison. Dégâts doublés en Crit
     - *À partir du tour 2:* Invoque un Fungus aléatoire chaque tour (max 2)
@@ -2025,7 +2026,7 @@
   Difficulty: 4
   ImmediateFocus: 3
   Evasion: 9
-  Tanking: 3
+  Tanking: 1
   Information: |
     - Tape et attire à 7 PO en ligne, tape et pousse à 5 PO en ligne sans ligne de vue, tape à 3 PO, tape à 2 PO en zone en débuffant de 2 tours
     - Aux tours 5, 9, 13 etc: <u>**Oneshot à 3 PO autour de lui au début du tour global**</u>
@@ -2049,7 +2050,7 @@
   Image: 4278_Pounicheur.png
   Difficulty: 2
   ImmediateFocus: 0
-  Evasion: 2
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape au contact en poussant de 4 cases autour (1x par tour)
@@ -2075,8 +2076,8 @@
   Image: 2992_Professeur Xa.png
   Difficulty: 5
   ImmediateFocus: 1
-  Evasion: 8
-  Tanking: 7
+  Evasion: 5
+  Tanking: 5
   Information: |
     - Tape en zone de 3 en ligne en retirant 4 PA (1x par tour)
     - *Aux tours 1, 3, 5 etc:* Lance un buff sur tous les mobs. Quand ils subissent un dégât, ils sont boostés en do fixes et soignent les alliés à 5 PO autour d'eux
@@ -2104,7 +2105,7 @@
   Image: 7197_Rakoopeur.png
   Difficulty: 2
   ImmediateFocus: 5
-  Evasion: 9
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape à 6 PO et à 4 PO en ligne. Ses sorts retirent 10% rés à lui et sa cible (2 tours)
@@ -2124,7 +2125,7 @@
   Difficulty: 3
   ImmediateFocus: 1
   Evasion: 8
-  Tanking: 4
+  Tanking: 2
   Information: |
     - Tape à 2 PO sans limite de lancer par tour/cible
     - S'applique un buff qui lui boost 50% résistance dans l'élément de chaque attaque subi (2 tours, relance 5)
@@ -2190,7 +2191,7 @@
   Difficulty: 1
   ImmediateFocus: 9
   Evasion: 9
-  Tanking: 4
+  Tanking: 1
   Information: |
     - Tape en zone jusqu'à 8 PO en retirant 3 PM et en téléportant les cibles de 1 case aléatoirement (relance 2), tape au contact, bondit à 2 PO max en tapant au contact
     - Lance un sort mettant une rune en croix sur toutes les entités. Au prochain tour, il tape tout le monde <u>**sauf si vous êtes au centre d'une rune**</u>, et se boost (2 tours)
@@ -2270,8 +2271,8 @@
   Image: 3648_Roi Nidas.png
   Difficulty: 5
   ImmediateFocus: 3
-  Evasion: 9
-  Tanking: 5
+  Evasion: 6
+  Tanking: 4
   Information: |
     - Tape en zone jusqu'à 7 PO. À partir du tour 2, tape et attire à 6 PO en ligne en échangeant de place au contact
     - À son prochain tour, les cibles de son sort air <u>**Zizanie**</u> rejouent les dégâts à 2 PO autour d'elles en débuffant de 2 tours
@@ -2288,8 +2289,8 @@
   Image: 2854_Royalmouth.png
   Difficulty: 4
   ImmediateFocus: 6
-  Evasion: 5
-  Tanking: 9
+  Evasion: 2
+  Tanking: 8
   Information: |
     - Tape au contact, attire à 2 PO en ligne
     - Invoque un Boufmouth aléatoire (max 1, relance 3)
@@ -2311,7 +2312,7 @@
   Image: 797_Scarabosse Dore.png
   Difficulty: 2
   ImmediateFocus: 2
-  Evasion: 9
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape à 3 PO en ligne, soigne à 2 PO autour de lui (relance 2), peut repousser au contact de 3 cases
@@ -2333,8 +2334,8 @@
   Image: 5955_Servitude.png
   Difficulty: 9
   ImmediateFocus: 1
-  Evasion: 6
-  Tanking: 6
+  Evasion: 5
+  Tanking: 5
   Information: |
     - Tape à 5 PO en mettant un bouclier sur le mob le plus proche de la cible, tape à 2 PO autour de lui, attire à 10 PO en ligne
     - *Aux tours 1, 3, 5 etc:* invoque une Armécréante à 2 PO (4 max)
@@ -2369,8 +2370,8 @@
   Image: 457_Shin Larve.png
   Difficulty: 4
   ImmediateFocus: 6
-  Evasion: 9
-  Tanking: 6
+  Evasion: 8
+  Tanking: 2
   Information: |
     - Tape au contact en retirant 4 PA et en repoussant de 4 (1x par tour)
     - *Aux tours 2, 4, 6 etc:* Invoque une Larve aléatoire
@@ -2385,8 +2386,8 @@
   Image: 6388_Shogun Tofugawa.png
   Difficulty: 5
   ImmediateFocus: 0
-  Evasion: 6
-  Tanking: 6
+  Evasion: 5
+  Tanking: 5
   Information: |
     - Tape à 9 PO, tape en zone jusqu'à 8 PO en repoussant de 2 cases du centre, tape à 7 PO en ligne en attirant et en débuffant de 1 tour
     - Ne peut pas être taclé sauf dans le glyphe d'une Lanterne
@@ -2409,8 +2410,8 @@
   Image: 1071_Silf le Rasboul Majeur.png
   Difficulty: 2
   ImmediateFocus: 0
-  Evasion: 5
-  Tanking: 9
+  Evasion: 0
+  Tanking: 10
   Information: |
     - Tape faiblement à 6 PO en échangeant de place
     - Invoque des Rasbouls Mineurs à exactement 8 PO <u>**qui recons les mobs au contact**</u> (5 max, 2 par tour)
@@ -2436,8 +2437,8 @@
   Image: 5100_Solar.png
   Difficulty: 8
   ImmediateFocus: 0
-  Evasion: 5
-  Tanking: 9
+  Evasion: 2
+  Tanking: 8
   Information: |
     - Le boss a des sorts très variés selon la phase. Il a 4 phases dont chacune dure 3 tours, le cycle recommence donc à priori tour 13
     - Sur ses phases matin / midi / soir / nuit, vos PA sont modifiés: +1 / +2 / -1 / -2
@@ -2468,7 +2469,7 @@
   Image: 943_Sphincter Cell.png
   Difficulty: 4
   ImmediateFocus: 0
-  Evasion: 5
+  Evasion: 2
   Tanking: 8
   Information: |
     - Tape à 2 PO en ligne sans ligne de vue 
@@ -2495,7 +2496,7 @@
   Difficulty: 3
   ImmediateFocus: 4
   Evasion: 2
-  Tanking: 9
+  Tanking: 8
   Information: |
     - Tape à 5 PO en ligne / diagonale. Bondit à 5 PO en tapant en cercle 2 (relance 2). Ses deux sorts appliquent un poison
     - Phase 2: Se téléporte au contact d'un allié et tue les autres alliés collés à ce dernier. Invoque aussi un double qui tacle
@@ -2509,7 +2510,7 @@
   Difficulty: 7
   ImmediateFocus: 0
   Evasion: 7
-  Tanking: 4
+  Tanking: 3
   Information: |
     - Tape à 10 PO en vous mettant un poison sur dommages mêlée, tape à 3 PO en ligne en débuffant intégralement
     - Boost fortement les dommages fixes et le tacle d'un mob au contact (1 tour, relance 2)
@@ -2573,7 +2574,7 @@
   Image: 6218_Tanukoui San.png
   Difficulty: 5
   ImmediateFocus: 6
-  Evasion: 3
+  Evasion: 2
   Tanking: 8
   Information: |
     - Tape en zone de 3 jusqu'à 13 PO en ligne, tape à 4 PO, tape à 2 PO en poussant de 2
@@ -2593,8 +2594,8 @@
   Image: 2967_Tengu Givrefoux.png
   Difficulty: 5
   ImmediateFocus: 1
-  Evasion: 9
-  Tanking: 4
+  Evasion: 7
+  Tanking: 3
   Information: |
     - Attire à 8 PO sans ligne de vue de 3 cases (relance 3), tape au contact et érode 10%
     - *Aux tours 2, 5, 8 etc:* invoque aléatoirement un Yokai ou Yomi Givrefoux (max 2)
@@ -2637,7 +2638,7 @@
   Image: 5806_Torkelonia.png
   Difficulty: 7
   ImmediateFocus: 5
-  Evasion: 3
+  Evasion: 2
   Tanking: 8
   Information: |
     - Tape à 8 PO en ligne ou diagonale, tape en ligne ou diagonale infinie selon le tour, tape à 10 PO avec les dégâts qui rebondissent à 5 PO (3 rebonds max)
@@ -2668,8 +2669,8 @@
   Image: 799_Tournesol Affame.png
   Difficulty: 3
   ImmediateFocus: 2
-  Evasion: 9
-  Tanking: 8
+  Evasion: 8
+  Tanking: 2
   Information: |
     - Tape au contact, soigne en cercle de 2 autour (relance 4)
     - *Aux tours 2, 5, 8 etc:* Invoque un monstre des champs aléatoire
@@ -2687,7 +2688,7 @@
   Difficulty: 6
   ImmediateFocus: 3
   Evasion: 9
-  Tanking: 2
+  Tanking: 1
   Information: |
     - Tape à 7 PO en ligne en mettant un poison (5 tours cumulable), tape à 2 PO en mettant un poison PA très fort tout en érodant (1 tour)
     - Chaque tour, rend un perso random violet. <u>**Ce dernier subira 50% de dégâts en plus**</u>. Taper cette cible débuff l'attaquant de 1 tour et soigne 150% des dégâts infligés
@@ -2728,8 +2729,8 @@
   Image: 4264_Ush Galesh.png
   Difficulty: 5
   ImmediateFocus: 2
-  Evasion: 5
-  Tanking: 5
+  Evasion: 2
+  Tanking: 8
   Information: |
     - Le premier tape à 6-12 PO en ligne sans ligne de vue en retirant 15% rés, et au contact en repoussant de 3. Le sort au contact oneshot les invoc
     - Le deuxième tape à 3 PO en ligne en attirant, et tape au contact en retirant 3 PM
@@ -2754,7 +2755,7 @@
   Difficulty: 6
   ImmediateFocus: 1
   Evasion: 8
-  Tanking: 3
+  Tanking: 2
   Information: |
     - Tape tous les alliés en attirant toute la map de 4 cases vers lui (relance 3), bondit à 6 PO en tapant en zone, tape à 8 PO en zone en retirant 1 PA et 2 PM (cible nécessaire), tape à 6 PO en ligne en s'attirant et en repoussant la cible de 3, tape à 2 PO en poussant de 1 case
     - <u>**Délock**</u>: *Aux tours 2, 4, 6 etc:* Le Vénérable se soigne, s'endort, passe donc son tour et devient Vulnérable et Indéplaçable
@@ -2778,7 +2779,7 @@
   Difficulty: 5
   ImmediateFocus: 0
   Evasion: 9
-  Tanking: 3
+  Tanking: 1
   Information: |
     - Le Vortex est plus ou moins en passe-tour permanent Phase 1  
     - Tape en ligne infinie de l'auroraire en érodant, met Insoignable à 2 PO autour d'un Zombie en ligne de vue
@@ -2812,7 +2813,7 @@
   Image: 180_Wa Wabbit.png
   Difficulty: 2
   ImmediateFocus: 1
-  Evasion: 2
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape faiblement à 11 PO, une seule fois par tour. Dommages triplés en crit (10%)
@@ -2834,7 +2835,7 @@
   Caption: Placement pour oneshot
   Difficulty: 3
   ImmediateFocus: 5
-  Evasion: 6
+  Evasion: 4
   Tanking: 6
   Information: |
     - Tape à 4-12 PO en ligne en attirant au contact. Invoque un Tamponneur sur la case ciblée après l'attirance. Tape à 2 PO en ligne sans ligne de vue en poussant de 3
@@ -2859,7 +2860,7 @@
   Difficulty: 4
   ImmediateFocus: 5
   Evasion: 7
-  Tanking: 4
+  Tanking: 3
   Information: |
     - Tape en zone jusqu'à 3 PO en débuffant 1 tour. Tape à 3 PO en mettant l'état Pacifiste
     - S'il était déplacé: débloque un sort pour 1 tour qui permet de coop des mobs à PO infinie sans ligne de vue (2x par tour)
@@ -2886,7 +2887,7 @@
   Image: 686_Aermyne 'Braco' Scalptaras.png
   Difficulty: 4
   ImmediateFocus: 7
-  Evasion: 8
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape au contact en poussant de 3, tape fort une invocation à 8 PO (relance 4)
@@ -2920,7 +2921,7 @@
   Difficulty: 5
   ImmediateFocus: 3
   Evasion: 7
-  Tanking: 4
+  Tanking: 3
   Information: |
     - Tape à 8 PO en demi-cercle, tape fort au contact, bondit à 5 PO en ligne (1x par tour)
     - *Aux tours 2, 5, 8 etc:* Se rend Invulnérable en mettant un état sur votre team (2 tours): À chaque début de tour, vous infligez 20% de vos PV actuels en dégâts à 2 PO et à vous-même. Ces dégâts <u>**retirent son Invulnérabilité**</u>. Vous récupérez aussi l'état Foudroyé
@@ -2940,8 +2941,8 @@
   Image: 1309_Bouflouth.png
   Difficulty: 5
   ImmediateFocus: 7
-  Evasion: 9
-  Tanking: 5
+  Evasion: 8
+  Tanking: 2
   Information: |
     - Tape au contact en poussant de 5. Au tour 6, <u>**oneshot**</u> au contact et remplace par un Boufmouth (relance 5)
     - Invoque un Boufmouth de Guerre (relance 6) qui peut mettre -50% rés à un perso
@@ -2963,7 +2964,7 @@
   Difficulty: 2
   ImmediateFocus: 5
   Evasion: 9
-  Tanking: 5
+  Tanking: 1
   Information: |
     - Tape à 8 PO en retirant 3 PM, met un piège à 8 PO 
     - Il a un glyphe qui <u>**oneshot**</u> début et fin de tour, et qui est en cercle de 2. <u>**Chaque glyphe est retiré après le prochain début de tour d'une entité**</u>
@@ -2985,7 +2986,7 @@
   Image: 2057_Chevalier de Glace.png
   Difficulty: 6
   ImmediateFocus: 5
-  Evasion: 4
+  Evasion: 2
   Tanking: 8
   Information: |
     - Tape à 15 PO en volant des do fixes (3 tours), tape fort à 2 PO en mettant Pesanteur
@@ -3012,7 +3013,7 @@
   Image: 2058_Culbutoeuf.png
   Difficulty: 8
   ImmediateFocus: 8
-  Evasion: 5
+  Evasion: 3
   Tanking: 7
   Information: |
     - Tape à 4 PO en mettant un poison dans 2 ou 3 tours (aléatoirement), tape fort au contact en retirant Puissance, 10 PM et en infligeant 40% érosion
@@ -3043,7 +3044,7 @@
   Image: 2053_Docteur Eggob.png
   Difficulty: 5
   ImmediateFocus: 5
-  Evasion: 4
+  Evasion: 2
   Tanking: 8
   Information: |
     - Tape à PO infinie en ligne en croix de 3 en mettant Insoignable (2 tours)
@@ -3068,8 +3069,8 @@
   Image: 2908_Dremoan.png
   Difficulty: 5
   ImmediateFocus: 0
-  Evasion: 3
-  Tanking: 9
+  Evasion: 2
+  Tanking: 8
   Information: |
     - Tape en ligne de 3 jusqu'à 4 PO en retirant 2-3 PM, tape lourdement feu un autre mob chaque tour en se soignant
     - *Aux tours 3, 8, 13 etc:* met -100 PM et Pesanteur à votre team et tape tout le monde neutre au tour suivant. Les invocations gagnent également l'état Zombi
@@ -3154,7 +3155,7 @@
   Difficulty: 4
   ImmediateFocus: 4
   Evasion: 9
-  Tanking: 6
+  Tanking: 1
   Information: |
     - Tape en zone jusqu'à 7 PO en retirant 2 PM et en poussant de 1, tape et coop à 5 PO en se mettant Invulnérable (infini), tape au contact en repoussant de 3
     - Taper l'Homard au contact enlève son Invulnérabilité
@@ -3172,7 +3173,7 @@
   Image: 2903_Katigrou.png
   Difficulty: 4
   ImmediateFocus: 3
-  Evasion: 4
+  Evasion: 2
   Tanking: 8
   Information: |
     - Tape au contact et rajoute une ligne qui tape à la hauteur de 20% de ses PV manquants
@@ -3192,7 +3193,7 @@
   Image: 4734_Khepricorne.png
   Difficulty: 1
   ImmediateFocus: 2
-  Evasion: 6
+  Evasion: 1
   Tanking: 9
   Information: |
     - Sans délock: tape à 10 PO, et au contact en volant 1 PA
@@ -3217,7 +3218,7 @@
   Image: 3670_Maxi-Malle.png
   Difficulty: 3
   ImmediateFocus: 4
-  Evasion: 7
+  Evasion: 3
   Tanking: 7
   Information: |
     - Tape en zone jusq'à 10 PO en retirant 2 PM et en mettant Pesanteur. Tape en zone jusqu'à 3 PO en repoussant de 2
@@ -3238,7 +3239,7 @@
   Difficulty: 8
   ImmediateFocus: 0
   Evasion: 1
-  Tanking: 10
+  Tanking: 9
   Information: |
     - Il met des glyphes divers pour 2 tours qui sont tous à 10-12 PO en ligne sans ligne de vue et avec des bonus / malus selon ennemi / allié
     - *Les glyphes de cette liste:* dégâts / soin (proc début de tour), -20% rés / +20% rés et Pesanteur (proc fin de tour, relance 2), 25% érosion / 25% vita (proc début de tour, relance 4), -3 PA / +3 PA (proc fin de tour, relance 3)
@@ -3270,7 +3271,7 @@
   Difficulty: 6
   ImmediateFocus: 9
   Evasion: 9
-  Tanking: 3
+  Tanking: 1
   Information: |
     - Au début du combat <u>**votre team est Pesanteur et perd 100 PM (1 tour)**</u>
     - Tape jusqu'à 2 PO en zone en appliquant un effet aléatoire parmi ret PA, ret PM, poussée, passe-tour et une deuxième ligne de dégâts (2x par tour)
@@ -3293,7 +3294,7 @@
   Image: 3845_Morblok.png
   Difficulty: 2
   ImmediateFocus: 1
-  Evasion: 3
+  Evasion: 1
   Tanking: 9
   Information: |
     - Tape à 10 PO en boostant de la Puissance à tous les mobs (relance 2), tape au contact, bondit à 5 PO en tapant et attirant vers lui en cercle 3 et en se boostant 200 tacle
@@ -3344,7 +3345,7 @@
   Difficulty: 0
   ImmediateFocus: 0
   Evasion: 10
-  Tanking: 8
+  Tanking: 10
   Information: |
     - Invoque 4 bombes sur ses 4 cases en diagonale. Reinvoque à chaque fin de tour jusqu'à ce qu'il y de nouveau 4 bombes au total
     - Une bombe qui meurt tape en zone autour (3 PO max). Elle meurt dans 4 tours par elle-même. Chaque tour elle se boost
@@ -3361,8 +3362,8 @@
   Image: 3851_Sicogne.png
   Difficulty: 5
   ImmediateFocus: 7
-  Evasion: 8
-  Tanking: 5
+  Evasion: 6
+  Tanking: 4
   Information: |
     - Tape à 10 PO en oneshottant toutes vos invocations, bondit à 6 PO en tapant en zone de 3 (relance 3), tape à 3 PO en vous retirant Puissance et 3 PM (4 tours, cumulable). Le sort augmente ses dommages de base pour le prochain tour
     - *Aux tours 1, 4, 7 etc:* Boost de la Puissance, 4 PA et 10% Crit aux mobs et maximise les effets sur votre team (1 tour)
@@ -3385,7 +3386,7 @@
   Difficulty: 7
   ImmediateFocus: 9
   Evasion: 8
-  Tanking: 3
+  Tanking: 2
   Information: |
     - Tape extrêment fort à 10 PO sans ligne de vue en fonction des PM utilisés. Il tape moins fort en ayant utilisé des PM
     - Met Pacifiste et Insoignable à 10 PO en ligne (2 persos max par tour)
@@ -3409,7 +3410,7 @@
   Difficulty: 7
   ImmediateFocus: 9
   Evasion: 1
-  Tanking: 10
+  Tanking: 9
   Information: |
     - Tape à 15 PO en retirant 2-3 PM et à 1 PO (modifiable). Dommages doublés en Crit
     - *Aux tours 1, 5, 9 etc:* boosts tous les mobs dommages fixes, 2 PM, 10% CC et 4 PO (4 tours)
