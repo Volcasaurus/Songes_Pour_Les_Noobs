@@ -2799,7 +2799,7 @@
     - Tape tous les alliés en attirant toute la map de 4 cases vers lui (relance 3), bondit à 6 PO en tapant en zone, tape à 8 PO en zone en retirant 1 PA et 2 PM (cible nécessaire), tape à 6 PO en ligne en s'attirant et en repoussant la cible de 3, tape à 2 PO en poussant de 1 case
     - <u>**Délock**</u>: *Aux tours 2, 4, 6 etc:* Le Vénérable se soigne, s'endort, passe donc son tour et devient Vulnérable et Indéplaçable
   Advice: |
-    - Le Vénérable est extrêment violent quand il joue dans votre camp. Profitez du tour Invu pour le dégagez loin, sinon il sera Indéplaçable au tour pair
+    - Le Vénérable est extrêment violent quand il joue dans votre camp. Profitez du tour Invu pour le dégager loin, sinon il sera Indéplaçable au tour pair
     - Si vous êtes assez loin, il s'avance juste avec ses PM et passe tour, sans utiliser le bond. 1 tour sur 4, il lancera son sort terre sur toute la map
     - Tous ses sorts sont sensibles au retrait PO
     - Pour accélérer le kill, vous pouvez le mettre Insoignable aux tours impairs, donc avant le sommeil
@@ -2807,7 +2807,7 @@
     - Peut attirer tout le monde 4 cases vers lui, a plein de sorts pour vous défoncer à moyenne PO
     - <u>**Délock**</u>: *Aux tours 2, 4, 6 etc:* Le Vénérable se soigne, s'endort, passe donc son tour et devient Vulnérable et Indéplaçable
   AdviceShort: |
-    - Le Vénérable est extrêment violent quand il joue dans votre camp. Profitez du tour Invu pour le dégagez loin, sinon il sera Indéplaçable au tour pair
+    - Le Vénérable est extrêment violent quand il joue dans votre camp. Profitez du tour Invu pour le dégager loin, sinon il sera Indéplaçable au tour pair
     - Si vous êtes assez loin, il s'avance juste avec ses PM et passe tour, sans utiliser le bond. 1 tour sur 4, il lancera son sort terre sur toute la map
     - Tous ses sorts sont sensibles au retrait PO
 
@@ -3160,7 +3160,7 @@
     - Essayez de vous planquer au début du combat pour tenter d'éviter le Pacifiste
     - Tuez le Kongoku rapidement
 
-- Id: 3448
+- Id: 3848
   Name: Hin
   Image: 3848_Hin.png
   Difficulty: 7
