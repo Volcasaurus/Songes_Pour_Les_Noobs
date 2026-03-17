@@ -61,6 +61,12 @@
         }
         else if (e.Key == "Tab" || e.Key == "Enter")
         {
+            if (!FilteredMonsters.Any())
+            {
+                return;
+            }
+
+            highlightedIndex = Math.Max(highlightedIndex, 0);
             var monster = FilteredMonsters.ElementAt(highlightedIndex);
             _ = OnNavigate(monster.Id);
             highlightedIndex = -1;
