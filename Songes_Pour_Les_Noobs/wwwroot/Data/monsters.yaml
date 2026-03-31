@@ -652,6 +652,36 @@
     - Crocus a un stuff 600 do pou et vous oneshot facilement contre un mur. Esquivez le à tout prix ou équipez des lourds re pou, servez vous des états Indéplaçable, Inébranlable ou des pièges
     - Pour rapidement délock les Chênes, servez vous des do pou de Crocus. Vous pouvez utilisez vos invocations pour pas se faire do pou vous-même
 
+- Id: 5664
+  Name: Croqueleur
+  Image: 5664_Croqueleur.png
+  Difficulty: 5
+  ImmediateFocus: 0
+  Evasion: 5
+  Tanking: 5
+  Information: |
+    - Tape à 3-9 PO, à 2 PO et peut attirer à 8 PO de 1-3 cases selon son état
+    - Ses 3 sorts ont des nombreux effets kisscool qui changent en fonction de son état. Les plus notables sont un -50% dommages mêlée et une Poisse. Tout dure 1 tour, débuffable
+    - <u>**Délock**</u>: Le délock est impossible! À la place, il faut faire invoquer 4 pépites consécutivement et les tuer pour tuer le Croqueleur
+    - <u>**Pour invoquer une pépite, il faut 2 actions: 1) Le taper dans un élément lui appliquera un état pour 1 tour 2) Le déplacer pendant qu'il a cet état**</u>
+    - L'ordre des éléments pour chaque pépite est <u>**stricte: 1) feu, 2) air, 3) eau, 4) terre**</u>
+    - Vous avez 1 tour entier pour tuer la première pépite, et deux tours entiers pour les pépites 2, 3 et 4. Sinon, il faudra recommencer la pépite
+    - La première pépite est Invulnérable à distance. Les pépites suivantes ont 70%, 40% et 10% résistances distance mais ont progressivement plus de vitalité
+    - À chaque pépite morte, le Croqueleur perd de la Puissance mais gagne 1 PA et 1 PM
+  Advice: |
+    - Ce boss est un poutch, mais très chiant à tuer. Tuez-le en dernier
+    - Si votre compo a très peu de dommages mêlée, <u>**le boss risque d'être impossible**</u>
+  InformationShort: |
+    - Tape à 3-9 PO, à 2 PO et peut attirer à 8 PO. Il applique des effets kisscool selon son état
+    - <u>**Délock**</u>: Le délock est impossible! À la place, il faut faire invoquer 4 pépites et les tuer pour tuer le Croqueleur
+    - Pour invoquer une pépite, il faut 2 actions: 1) Le taper dans un élément lui appliquera un état (1 tour) 2) Le déplacer pendant qu'il a cet état
+    - L'ordre des éléments pour chaque pépite est <u>**stricte: feu, air, eau, terre**</u>
+    - Vous avez 1 tour entier pour tuer la première pépite, et deux tours entiers pour les pépites 2, 3 et 4. Sinon, il faudra recommencer la pépite
+    - La première pépite est Invulnérable à distance. Les pépites suivantes ont 70%, 40% et 10% résistances distance mais ont progressivement plus de vitalité
+  AdviceShort: |
+    - Ce boss est un poutch, mais très chiant à tuer. Tuez-le en dernier
+    - Si votre compo a très peu de dommages mêlée, <u>**le boss risque d'être impossible**</u>
+
 - Id: 3000000
   Name: Diddy
   Image: 3000000_Diddy.png
@@ -1701,32 +1731,23 @@
     - Profiter du malus 50% rés est très conseillé. Bambouseraie ou Pavois peuvent aider pour entourer
     - L'état <u>**Pesanteur**</u> déclenche le -50% également, sans devoir entourer
 
-- Id: 3534
-  Name: Merkator
-  Image: 3534_Merkator.png
-  Difficulty: 7
-  ImmediateFocus: 3
-  Evasion: 9
-  Tanking: 1
+- Id: 5653
+  Name: Mawabouaino
+  Image: 5653_Mawabouaino.png
+  Difficulty: 4
+  ImmediateFocus: 7
+  Evasion: 3
+  Tanking: 7
   Information: |
-    - Tape en ligne jusqu'à 7 PO en zone, tape au contact <u>**en retirant 50% PV**</u> et en mettant Pesanteur (1 tour)
-    - *Aux tours 2, 4, 6 etc:* Lance un sort qui boost son sort de zone pour chaque dégât subi (cumul max 5, environ +130% dégâts en full boost)
-    - *Aux tours 3, 5, 7 etc:* Au début de son tour, attire les alliés à 12 PO en ligne jusqu'au contact en leur retirant 4 PM
-    - <u>**Ne subit que 50% des dégâts à distance**</u>
-  Mechanic: |
-    - <u>**Tous les ennemis sont Indéplaçables**</u>
-    - Chaque tentative de retrait PM à un ennemi vous inflige des dommages feu
+    - Tape à 8 PO en retirant un PM (1 tour), tape à 10 PO en ligne sans ligne de vue en retirant 20% rés terre (1 tour). À partir du tour 4 (relance 2), peut taper en cercle 2 en repoussant de 2 cases (non-esquivable)
+    - *Aux tours 1, 4, 7 etc:* Invoque un Twakeuf qui tape au contact, en cône de 2 et qui peut voler de la vitalité à 3 PO
   Advice: |
-    - Pour esquiver les ennemis, prévoyez des sorts de mobilité pour tourner sur la map, le déplacement et le retrait étant restreints
-    - Un tank peut être particulièrement utile, mais idéalement vous jouez un débuff juste après Merkator pour retirer son malus 50% vita
+    - Il est impactant avec son invocation et vous tape facilement. Sa vitalité est faible et il n'a aucune défense, explosez-le rapidement
   InformationShort: |
-    - Tape en ligne jusqu'à 7 PO en zone, tape au contact <u>**en retirant 50% PV**</u>
-    - <u>**Ne subit que 50% des dégâts à distance**</u>
-  MechanicShort: |
-    - <u>**Tous les ennemis sont Indéplaçables**</u>
-    - Chaque tentative de retrait PM à un ennemi vous inflige des dommages feu
+    - Tape à 8 PO ou à 10 PO en ligne sans ligne de vue
+    - Invoque des Twakeufs qui tapent à courte PO
   AdviceShort: |
-    - Pour esquiver les ennemis, prévoyez des sorts de mobilité pour tourner sur la map, le déplacement et le retrait étant restreints
+    - Il est impactant avec son invocation et vous tape facilement. Sa vitalité est faible et il n'a aucune défense, explosez-le rapidement
 
 - Id: 232
   Name: Meulou
@@ -2044,7 +2065,7 @@
 - Id: 4726
   Name: Père Ver
   Image: 4726_Pere Ver.png
-  Difficulty: 7
+  Difficulty: 8
   ImmediateFocus: 2
   Evasion: 0
   Tanking: 10
@@ -2125,6 +2146,38 @@
     - <u>**Délock**</u>: Rendre les 3 puces au même état via un coup au contact désactive le renvoi jusqu'au prochain tour du Pounicheur
   AdviceShort: |
     - Le boss tape une seule fois, il peut presque totalement être ignoré
+
+- Id: 5666
+  Name: Prêtresse de Kao
+  Image: 5666_Pretresse de Kao.png
+  Difficulty: 7
+  ImmediateFocus: 0
+  Evasion: 1
+  Tanking: 9
+  Information: |
+    - Tape à 8 PO en volant 1 PM, tape en zone de 4 en ligne jusqu'à 7 PO
+    - *Aux tours 1, 3, 5 etc:* Tape tous les alliés sur la map
+    - *Aux tours 1, 4, 7 etc:* Soigne tous les mobs 10% et boost leurs dommages fixes (1 tour)
+    - Aux tours 1, 3, 5 etc, elle invoque un <u>**Éclat**</u> statique qui augmente sa vita (1 tour) pour chaque perso en vie. Un nouvel Éclat remplace le précédent. Taper l'Éclat vous inflige l'état <u>**Chocolathé**</u> (3 tours)
+    - <u>**Délock**</u>: Tuer un Éclat par un allié ou par sa perte de vita file un état au boss (infini). À 3 états ET tant que l'Éclat est mort, la Prêtresse est vulnérable
+    - Chaque état augmente ses dégâts: les états 1 / 2 / 3 donnent 50% / 75% / 100% dommages finaux (non-cumulatif)
+    - <u>**Son sort sur toute la map est violemment boosté pour chaque état Chocolathé sur vos alliés. Rien qu'un seul état ira plus que doubler les dégâts du sort!**</u>
+  Advice: |
+    - Les résistances neutre sont très utiles  
+    - Sans mob de sa zone, il est impossible de délock la Prêtresse avant le tour 5
+    - Pour simplifier le combat, laissez la Prêtresse en dernier et ne tapez jamais l'Éclat avant
+    - Tapez l'Éclat avec un seul allié maximum pour minimiser les états Chocolathé
+    - Plusieurs <u>**bypass**</u> de l'état Chocolathé sont possibles: Tuer l'Éclat en une seule grosse ligne de dégâts (surtout après la perte de son bonus vita!), taper aux poisons, taper aux invocations pour les tuer derrière, porter le perso qui a l'état avec un Pandawa (ainsi, elle ne pourra pas se boost dessus!)
+  InformationShort: |
+    - Tape à 8 PO max, sinon elle tape tout le monde aux tours impairs
+    - Aux tours 1, 3, 5 etc, elle invoque un <u>**Éclat**</u> statique qui augmente sa vita (1 tour) pour chaque perso en vie. Un nouvel Éclat remplace le précédent. Taper l'Éclat vous inflige l'état <u>**Chocolathé**</u> (3 tours)
+    - <u>**Délock**</u>: Tuer un Éclat par un allié ou par sa perte de vita file un état au boss (infini). À 3 états ET tant que l'Éclat est mort, la Prêtresse est vulnérable
+    - Chaque état augmente ses dommages finaux
+    - <u>**Son sort sur toute la map est violemment boosté pour chaque état Chocolathé sur vos alliés. Rien qu'un seul état ira plus que doubler les dégâts du sort!**</u>
+  AdviceShort: |
+    - Pour simplifier le combat, laissez la Prêtresse en dernier et ne tapez jamais l'Éclat avant
+    - Tapez l'Éclat avec un seul allié maximum pour minimiser les états Chocolathé
+    - Plusieurs <u>**bypass**</u> de l'état Chocolathé sont possibles: Tuer l'Éclat en une seule grosse ligne de dégâts (surtout après la perte de son bonus vita!), taper aux poisons, taper aux invocations pour les tuer derrière, porter le perso qui a l'état avec un Pandawa (ainsi, elle ne pourra pas se boost dessus!)
 
 - Id: 2992
   Name: Professeur Xa
@@ -2498,11 +2551,11 @@
     - Le boss a des sorts très variés selon la phase. Il a 4 phases dont chacune dure 3 tours, le cycle recommence donc à priori tour 13
     - Sur ses phases matin / midi / soir / nuit, vos PA sont modifiés: +1 / +2 / -1 / -2
     - *Phase 1:* Tape en ligne à 6 PO max. Les mobs se soignent en début de tour
-    - *Phase 2:* Tape violemmemnt toute la map, bondit à 6 PO et tape fort au contact. Les mobs gagnent en Puissance
+    - *Phase 2:* Tape violemment toute la map, bondit à 6 PO et tape fort au contact. Les mobs gagnent en Puissance
     - *Phase 3:* N'est pas très dangéreux, peut -4 PM et Pesanteur un perso. Les mobs renvoient des dégâts
     - *Phase 4:* Tape très peu mais applique des poisons PA / PM en zone. Les mobs gagnent 2 PM
     - Il est <u>**délock**</u> uniquement en Phase 4. <u>**Il doit mourrir sous Necronyx ou vous allez perdre le combat!**</u>
-    - Necronyx fera que Solar avance sa phase au prochain tour, prématurément
+    - Necronyx fera que Solar avance sa phase au prochain tour, prématurément. Il enlèvera aussi l'état Necronyx
     - Quand il finit son tour, il pousse les alliés qui sont à 7 PO ou plus jusqu'à l'autre bout de la map (sans do pou)
     - Il renvoie 50% des dégâts en carré de 1 autour de lui sauf sous Necronyx
     - Il reinvoque tous les mobs morts. Un mob reinvoqué qui était Necronyx ne rejoue pas
@@ -3267,7 +3320,7 @@
   Advice: |
     - C'est un poutch qui vous tape une seule fois
     - Sa reinvocation est remplacée donc ne joue jamais
-    - Il reinvoque sur une case totalement aléatoire, rarement dans votre camp
+    - Il reinvoque dans votre camp, aléatoirement
     - Restez hors ligne et ligne de vue des Germes qui n'ont que 1 PM
     - Ses malus PM et l'état Pesanteur sont débuffables
   InformationShort: |
@@ -3431,7 +3484,7 @@
     - Pour 15 PA, peut infliger des dégâts directs en ligne infinie (relance 6)
   Mechanic: |
     - Vous perdez 2 PA pour tout le combat
-    - <u>**Tant que le Mekamouth reste en vie, vous avez un poison PM**</u>
+    - <u>**Vous avez un poison PM tout le combat**</u>
   Advice: |
     - Si possible, restez en diagonale de lui avec votre team pour pas se faire défoncer
     - Il a presque aucun dégât direct. <u>**Bloquez le derrière 2 invocations statiques (hors timeline) et restez hors de sa ligne pour ne subir aucun glyphe**</u>. S'il sort, il n'aura aucune autre action de son tour et vous pourrez replacer
@@ -3443,7 +3496,7 @@
     - Parmi ces glyphes, y'en a un qui le <u>**délock**</u> en fin de tour
   MechanicShort: |
     - Vous perdez 2 PA pour tout le combat
-    - <u>**Tant que le Mekamouth reste en vie, vous avez un poison PM**</u>
+    - <u>**Vous avez un poison PM tout le combat**</u>
   AdviceShort: |
     - Si possible, restez en diagonale de lui avec votre team pour pas se faire défoncer
     - Il a presque aucun dégât direct. <u>**Bloquez le derrière 2 invocations statiques (hors timeline) et restez hors de sa ligne pour ne subir aucun glyphe**</u>. S'il sort, il n'aura aucune autre action de son tour et vous pourrez replacer
@@ -3590,13 +3643,13 @@
 - Id: 2905
   Name: Vengeuse Masquée
   Image: 2905_Vengeuse Masquee.png
-  Difficulty: 7
+  Difficulty: 8
   ImmediateFocus: 9
   Evasion: 1
   Tanking: 9
   Information: |
     - Tape à 15 PO en retirant 2-3 PM et à 1 PO (modifiable). Dommages doublés en Crit
-    - *Aux tours 1, 5, 9 etc:* boosts tous les mobs dommages fixes, 2 PM, 10% CC et 4 PO (4 tours)
+    - *Aux tours 1, 5, 9 etc:* boost tous les mobs dommages fixes, 2 PM, 10% CC et 4 PO (4 tours)
     - <u>**Quand elle subit un retrait PO, elle gagne 50% résistances (2 tours)**</u>
     - A des valeurs de tacle et fuite virtuellement infinies
   Advice: |
@@ -3618,9 +3671,10 @@
   Information: |
     - Tape à PO infinie sans ligne de vue, inflige un poison à 12 PO et 20% érosion, tape fort en zone jusqu'à 4 PO
     - Quand vous tapez Voldelor, il vous applique un état (1 tour) qui améliore ses sorts sur les persos qui ont l'état: <u>**Le sort à PO infinie coop et le sort en zone jusqu'à 4 PO oneshot!**</u>
+    - Il applique l'état sur lui-même également et ne peut pas l'appliquer s'il l'a déjà. Un seul allié pourra donc l'avoir en même temps
     - Reinvoque un mob mort à 6 PO avec 70% de ses PV (relance 3)
   Advice: |
-    - Pour entamer Voldelor, mettez le <u>**Pesanteur**</u> en permanence, il servira à rien tant qu'il vous ne choppe pas à 4 PO. Sans Pesanteur, il faudra soit le oneturn, soit séparer toute votre team tel qu'il puisse pas coop into oneshot
+    - Pour entamer Voldelor, mettez le <u>**Pesanteur**</u> en permanence (ou le perso ayant son état!), il servira à rien tant qu'il vous ne choppe pas à 4 PO. Sans Pesanteur, il faudra soit le oneturn, soit éloigner le perso qui a l'état de Voldelor
     - Si vous le gardez en dernier, ne le tapez pas sans faire exprès. Il passera sa vie à vous taper un peu à distance
     - Vu qu'il tape à PO infinie sans ligne de vue, il passera souvent sa vie à l'autre bout de la map. Pour le faire approcher, placez un appât à 17 PO. Il s'avancera alors avec ses 5 PM pour mettre son sort à 12 PO
   InformationShort: |

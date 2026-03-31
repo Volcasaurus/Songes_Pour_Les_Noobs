@@ -219,7 +219,8 @@ else
         {"Tal Kasha", "1200px" },
         {"Déchireuse Perturbé", "1000px" },
         {"Solar", "1000px" },
-        {"Ilyzaelle", "1000px" }
+        {"Ilyzaelle", "1000px" },
+        {"Prêtresse de Kao", "900px" }
     };
 
     private const string DofensiveBase = "https://dofensive.com/fr/monster/";
@@ -232,6 +233,10 @@ else
 
         List<Monster> initial = deserializer.Deserialize<List<Monster>>(yamlText);
         Monsters = initial.ToDictionary(m => m.Id);
+        if (Monsters.ContainsKey(5666))
+        {
+            Console.WriteLine("yes");
+        }
 
         ParseURL();
     }
